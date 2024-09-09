@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1706988779 "c:/Dev/iaria2023/packages.tex" "packages.pdf" "packages" 1706988779 2
+  "c:/Dev/iaria2023/packages.tex" 1706988777 421 74539905c2121fba3296d3eb84829593 ""
+  "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1691503984 40967 d940221f8762fd5848760382d97d1226 ""
+  "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1691509304 8172627 525bdb1dc61f90677dc420ca7f417959 ""
+  "c:/texlive/2023/texmf.cnf" 1691509225 713 e69b156964470283e0530f5060668171 ""
+  "packages.aux" 1706988779 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "packages.tex" 1706988777 421 74539905c2121fba3296d3eb84829593 ""
+  (generated)
+  "packages.aux"
+  "packages.log"
+  "packages.pdf"
+  (rewritten before read)

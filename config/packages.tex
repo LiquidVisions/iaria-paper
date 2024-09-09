@@ -1,0 +1,30 @@
+\IEEEoverridecommandlockouts
+% % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+% \usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{csquotes}
+\usepackage[acronym, toc, nonumberlist]{glossaries}
+\usepackage[style=ieee, backend=biber, defernumbers=true, maxcitenames=2, mincitenames=1, urldate=iso, date=iso]{biblatex}
+\usepackage{float}	% For placing figures in minipages
+\usepackage{fontawesome}
+\usepackage{booktabs}
+%\usepackage[british]{babel}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\makeatletter
+\renewcommand\IEEEkeywordsname{Keywords}
+\makeatother
+\usepackage{xpatch}
+\xpatchcmd\IEEEkeywords{---}{-}{}{}
+
+\makeatletter
+\renewcommand{\fnum@figure}{Figure~\thefigure}
+\makeatother
+
+\bibliography{bib2.bib}

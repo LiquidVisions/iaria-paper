@@ -1,0 +1,70 @@
+\section{conclusion}
+
+The primary objective of \citename{koks_convergence_2023}{author} was to study the
+convergence between \gls{ca} and \gls{ns} by analyzing their principles and design
+elements through theory and practice. This Section will summarize the findings into a
+research conclusion.
+
+% A noteworthy distinction between \gls{ns} and \gls{ca} lies in their foundational roots.
+% \gls{ns} is a product of computer science research built upon formal theories and
+% principles derived from rigorous scientific investigation. Throughout this
+% paper, \gls{ns} is referred to as a development approach or paradigm, it is actually a
+% part of Computer Science.
+
+Stability and evolvability are concepts not directly referenced in the literature on
+\gls{ca}, but this design approach aligns with the goal of \gls{ns}. The attentive reader
+can observe the shared emphasis on modularity and the separation of concerns, as all SOLID
+principles strongly converge with \gls{soc}. Both approaches attempt to achieve low
+coupling and high cohesion. In addition, \gls{ca} adds the dimensions of dependency
+management as useful measures to improve maintainability by rigorously managing
+dependencies in the Software Architecture.
+
+The \gls{dvt} appears to be underrepresented in the SOLID principles of \gls{ca}.
+\gls{dvt} is primarily supported by the \gls{srp} of \gls{ca}, as evidenced by ViewModels,
+RequestModels, ResponseModels, and Entities as software elements. It is worth noting that
+this application of Data Version Transparency  is an integral part of the design elements
+of \gls{ca}. While \gls{ca} does address \gls{dvt} through the \gls{srp}, a more
+comprehensive representation of the underlying idea of \gls{dvt} within the principles of
+\gls{ca} will likely improve the convergence of \gls{ca} with \gls{ns}.
+
+% The underrepresentation of \gls{dvt} has led to significant combinatorial effects in some
+% parts of the researcher's artifacts. These combinatorial effects might be attributed to the
+% author's inexperience in creating systems that enable code generation through expansion
+% while maintaining stability on templates and craftings. If \gls{dvt} were better
+% represented in the principles of \gls{ca}, the severity of the combinatorial effects would
+% have most likely been less.
+
+\gls{ca} Lacks a strong foundation for receiving external triggers in its design
+philosophy. This is partially represented by the Controller element. However, this element
+is described as being used for web-enabled environments and might result in a less
+comprehensive approach to receiving external triggers across various technologies or
+systems.
+
+The most notable difference between \gls{ca} and \gls{ns} is their approach to handling
+state. \gls{ca} does not explicitly address state management in its principles or design
+elements. \gls{ns} Provides the principle of \gls{sos}, ensuring that state changes within
+a software system are stable and evolvable. This principle can be crucial in developing
+scalable and high-performance systems, as it isolates state changes from the rest of the
+system, reducing the impact of state-related dependencies and side effects. 
+
+The findings can only lead to the conclusion that the convergence between \gls{ca} and
+\gls{ns} is incomplete.  Consequently, \gls{ca} cannot fully ensure stable and evolvable
+software artifacts as \gls{ns} has defined them.
+
+While it has been demonstrated that the convergence between these two approaches is
+incomplete, combining both methodologies is highly beneficial for \gls{ns} and \gls{ca}
+for various reasons. The primary advantage of synergizing them lies in the complementary
+nature of both paradigms, where each approach provides strengths that can be leveraged to
+address a robust architectural design. 
+
+\gls{ca} offers a well-defined, practical, and modular structure for software development.
+Its principles, such as SOLID, guide developers in creating maintainable, testable, and
+scalable systems. This architectural design approach is highly suitable for various
+applications and can be easily integrated with the theoretical foundations provided by
+\gls{ns}. Conversely, the \gls{ns} approach offers a more comprehensive theoretical
+understanding of achieving stable and evolvable systems. 
+
+To conclude, the popularity and widespread adoption of \gls{ca} in the software
+development community can benefit \gls{ns}. As more developers adopt \gls{ca}, they become
+more familiar with \gls{ns} and recognize their value to software design. Synergizing both
+approaches will likely lead to increased adoption of \gls{ns}.

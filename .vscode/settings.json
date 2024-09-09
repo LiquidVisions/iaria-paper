@@ -1,0 +1,58 @@
+{   "omnisharp.autoStart": false,
+    "omnisharp.analyzeOpenDocumentsOnly": true,
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/*.blg": true,
+        "**/*.bcf": true,
+        "**/*.fls": true,
+        "**/*.lof": true,
+        "**/*.out": true,
+        "**/*.toc": true,
+        "**/*.lot": true,
+        "**/*.log": false,
+        "**/*.fdb_latexmk": true,
+        "**/*.run.xml": true,
+        "**/*.synctex.gz": true,
+        "**/*.bbl": true,
+        "**/*-blx.bib": true,
+        "**/*.acn": true,
+        "**/*.acr": true,
+        "**/*.glo": true,
+        "**/*.ist": true,
+        "**/*.glsdefs": true,
+        "**/*.alg": true,
+        "**/*.dvi": true,
+        "**/main.pdf": true,
+      },
+    "rewrap.autoWrap.enabled": true,
+    "rewrap.autoWrap.notification": "icon",
+    "rewrap.wrappingColumn": 90,
+    "grammarly.config.documentDomain": "academic",
+    "grammarly.config.documentDialect": "american",
+    "grammarly.config.suggestionCategories.passiveVoice": "on",
+    "grammarly.config.suggestionCategories.oxfordComma": "on",
+    "grammarly.config.suggestionCategories.prepositionAtTheEndOfSentence": "on",
+    "grammarly.config.suggestionCategories.stylisticFragments": "on",
+    "grammarly.startTextCheckInPausedState": true,
+    "grammarly.config.suggestionCategories.unnecessaryEllipses": "on",
+    "grammarly.config.suggestionCategories.conjugationAtStartOfSentence": "on",
+    "grammarly.selectors": [
+      {
+        "language": "latex",
+        "scheme": "file"
+      }
+    ],
+    "grammarly.files.exclude": [
+      "**/main.tex",
+      "**/main.old",
+      "**/**.cs",
+      "**/config/**",
+    ],
+    "grammarly.files.include": [
+      "**/readme.md",
+      "**/README.md",
+      "**/*.txt",
+      "**/*.tex"
+    ],
+
+}

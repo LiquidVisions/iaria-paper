@@ -1,0 +1,92 @@
+\usepackage[rightlabels]{titletoc}%
+\dottedcontents{section}[3.3em]{}{3em}{1pc}
+\dottedcontents{subsection}[6em]{\small}{4.25em}{1pc}
+
+%----------------------------------------------------------------------------------------
+%	RANDOM COMMANDS USED IN THE THESIS
+%----------------------------------------------------------------------------------------
+\newcommand{\fullref}[1]{\ref{#1}, \nameref{#1}}
+\newcommand{\code}[1]{\textit{\citetitle{#1}}}
+\newcommand{\citecode}[1]{\citetitle{#1} \parencite{#1}}
+\newcommand{\mycolorbox}[2]{\begin{tcolorbox}[boxrule=0.1pt, colback=mygray, title={#2}, colbacktitle=gray]
+  \textit{#1}
+\end{tcolorbox}}
+
+%----------------------------------------------------------------------------------------
+%	FONT ICON COMMANDS
+%----------------------------------------------------------------------------------------
+\newcommand{\fullConvergence}{\faPlus \faPlus}
+\newcommand{\noConvergence}{\faMinus}
+\newcommand{\npartialConvergence}{\faPlus}
+
+\usepackage{array}
+\usepackage{ragged2e}
+\newcolumntype{P}[1]{>{\RaggedRight\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\hspace{0pt}}c{#1}}
+
+
+\usepackage{etoolbox}
+\preto\tabular{\setcounter{magicrownumbers}{0}}
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\newcounter{reqcounter}
+\newcommand\requirementCategory{\arabic{reqcounter}}
+
+\newcommand{\evalTable}[3]{%
+\begin{table}[H]
+  \begin{tabular}{ c c p{0.76\linewidth}}
+      \hline
+      \hline
+      #3
+      \hline
+      \hline
+  \end{tabular}
+  \caption{#1}
+  \label{#2}
+\end{table}
+}
+\newcommand{\addEvalRow}[1]{%
+    #1 \\
+}
+
+\newcommand{\evaluatePrincipleTable}[3]{%
+  \evalTable{The convergence of #1 with the \acrshort{ns} principles}{#2}{#3 \hline}
+}
+
+\newcommand{\evaluateElementTable}[3]{%
+  \evalTable{The convergence of the element #1 with the elements of \acrshort{ns}}{#2}{#3 \hline}
+} 
+
+\newcommand{\requirement}[3]{%
+\stepcounter{reqcounter}
+  \begin{table}[H]
+    \begin{tabular}{@{\makebox[3em][c]{\requirementCategory.\rownumber\space}}  p{0.87\linewidth}}
+        \multicolumn{1}{@{\makebox[3em][c]{\textbf{Nr.}}}
+        p{0.87\linewidth}}{\textbf{#1 requirements}}\\ 
+    \hline
+
+    #3 \hline
+
+    \hline
+    \end{tabular}
+  \caption{#1 requirements}
+  \label{#2}
+  \end{table}
+}
+
+\newcommand{\compareTable}[3]{%
+  \begin{table}[!ht]
+    \center
+    \begin{tabular}{cccc}
+    \toprule
+    SoC & DVT & AVT & SoS \\
+    \midrule
+    #3 \hline
+    \bottomrule
+    \end{tabular}
+    \caption{#1 with \acrlong*{ns} principles}
+    \label{#2}
+    \end{table}
+}
+\newcommand{\highlight}[1]{\textit{\textbf{#1}}}
+\newcommand{\glslong}[1]{\highlight{\gls{#1}}}
