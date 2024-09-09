@@ -1,8 +1,8 @@
-PWD c:/Dev/iaria2023
+PWD c:/Dev/iaria-paper
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Dev/iaria2023/main.tex
+INPUT c:/Dev/iaria-paper/main.tex
 OUTPUT main.log
 INPUT ./IEEEtran.cls
 INPUT IEEEtran.cls
