@@ -1,0 +1,35 @@
+\subsubsection{Component Architecture Requirements} \label{component_requirements}
+
+The following requirements are applied to the component architecture of both the Generator
+artifact and the Generated artifact.
+
+\requirement{The component architecture}
+\begin{enumerate}[label=\themycounter.\arabic*]
+    \item The solution is organized into separate Visual Studio projects for the Domain,
+    Application, Infrastructure, and Presentation layers of the component. A detailed
+    description of these layers can be found in Section (((FIX FULLREF))).
+    \item The Visual Studio projects representing the component layers comply with the naming
+    conventions outlined in Appendix (((FIX FULLREF))).
+    \item The dependencies between the component layers must follow an inward direction towards
+    the higher-level components as illustrated in Figure \ref{fig_modulair_components}
+    schematically, and cannot skip layers.
+\end{enumerate}
+
+\requirement{The technology}
+\begin{enumerate}[label=\themycounter.\arabic*]
+    \item The Domain and Application layers have no dependencies on infrastructure technologies, like web- or
+    database technologies.
+    \item The Presentation Layer relies on various infrastructure technologies for
+    facilitating end-user interaction. Examples of such technologies include Command
+    Line Interfaces (CLIs), RESTful APIs, and web-based solutions. Each dependency is
+    isolated and managed in separate Visual Studio Projects to ensure the stability and
+    evolvability of the system.
+    \item The Infrastructure Layer may rely on other infrastructure components, such as
+    databases or filesystems. Each infrastructure dependency is isolated and managed in
+    separate Visual Studio Projects to promote stability and evolvability.
+    \item All component Layers utilize the C\# programming language, explicitly targeting the
+    .NET 7.0 framework.
+    \item Reusing existing functionality or technology (packages) is permitted only when
+    adhering to the \gls{lsp} and utilizing the open-source package manager,
+    \gls{nuget}.
+\end{enumerate}
