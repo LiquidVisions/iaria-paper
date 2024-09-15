@@ -1,0 +1,59 @@
+\subsubsection{Component Layer Naming Conventions} \label{appendix_component_naming_convention}
+
+\textbf{[PROD]} is defined as \textit{The name of the product of the software.} \newline 
+\textbf{[COMP]} is defined as \textit{The name of the Company that is considered the owner of the software. If
+there is no company involved, this can be left blank.} \newline 
+\textbf{[TECH]} is defined as \textit{The primary technology that is used by the component layer.} 
+
+\begin{table}[H]
+    \footnotesize
+    \caption{Naming convention component layers}
+    \begin{tabular}{ l l }
+    \hline
+    \textbf{Layer} & \textbf{Convention} \\ 
+    \hline
+    Domain & \textbf{Project}: [PROD].Domain \\ & \textbf{Package}: [COMP].[PROD].Domain \\
+    Application & \textbf{Project}: [PROD].Application \\ & \textbf{Package}: [COMP].[PROD].Application \\
+    Presentation & \textbf{Project}: [PROD].Presentation.[TECH] \\ & \textbf{Package}: [COMP].[PROD].Presentation.[TECH] \\
+    Infrastructure & \textbf{Project}: [PROD].Infrastructure.[TECH] \\ & \textbf{Package}: [COMP].[PROD].Infrastructure.[TECH]
+    \\ \hline
+    \end{tabular}
+
+\label{table:component_naming_convention}
+\end{table}
+
+\section{Element Naming Conventions} \label{appendix_element_naming_convention}
+
+\textbf{[Verb]} is defined as \textit{The primary action that that class or interface is assosiated with.} \newline 
+\textbf{[Noun]} is defined as \textit{The primary subject or object that that class or interface is assosiated with.} 
+
+\begin{table}[H]
+  \footnotesize
+  \caption{Naming convention of recurring elements}
+  \begin{tabular}{ p{0.16\linewidth} p{0.17\linewidth} p{0.09\linewidth} p{0.29\linewidth} }
+  \hline
+  \textbf{Layer} & \textbf{Element} & \textbf{Type} & \textbf{Convention} \\ \hline
+  Presentation & Controller & class & [\textit{Noun}]Controller \\
+  & ViewModel- Mapper & class & [\textit{Noun}]ViewModel- Mapper \\
+  & Presenter & class & [\textit{Verb}][\textit{Noun}]Presenter \\
+  & ViewModel & class & [\textit{Noun}]ViewModel \\
+
+  Application & Boundary & class & [\textit{VerbNoun}]Boundary \\
+  & Boundary  & interface & IBoundary \\
+  & Gateway  & interface & I[\textit{Verb}]Gateway \\
+  & Interactor  & interface & I[\textit{Verb}]Interactor \\
+  & Interactor & class & [\textit{Verb}][\textit{Noun}]Interactor \\
+  & Mapper  & interface & IMapper \\
+  & RequestModel-Mapper & class & [\textit{Verb}][\textit{Noun}]Request-ModelMapper \\
+  & Presenter  & interface & IPresenter \\
+  & Validator  & interface & IValidator \\
+  & Validator & class & [\textit{Verb}][\textit{Noun}]Validator \\
+  
+  Infrastructure & Gateway & class & [\textit{Noun}]Repository \\
+
+  Domain & Data Entity & class & [\textit{Noun}] \\ \hline
+
+  \end{tabular}
+  
+  \label{table_element_naming_convention}
+\end{table}
