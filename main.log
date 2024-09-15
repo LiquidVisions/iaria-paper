@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.8)  9 SEP 2024 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.8)  10 SEP 2024 10:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Dev/iaria2023/main.tex
-(c:/Dev/iaria2023/main.tex
+**c:/Dev/iaria-paper/main.tex
+(c:/Dev/iaria-paper/main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-03>
 (./IEEEtran.cls
@@ -670,39 +670,48 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count450
 \@lastruleclass=\count451
 \@thisrulewidth=\dimen198
+) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip91
+\enit@outerparindent=\dimen199
+\enit@toks=\toks38
+\enit@inbox=\box64
+\enit@count@id=\count452
+\enitdp@description=\count453
 ) (c:/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )) (./config/abbreviations.tex) (./config/commands.tex (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
-\ttl@leftsep=\dimen199
+\ttl@leftsep=\dimen256
 ) (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen256
-\ar@mcellbox=\box64
-\extrarowheight=\dimen257
-\NC@list=\toks38
-\extratabsurround=\skip91
-\backup@length=\skip92
-\ar@cellbox=\box65
+\col@sep=\dimen257
+\ar@mcellbox=\box65
+\extrarowheight=\dimen258
+\NC@list=\toks39
+\extratabsurround=\skip92
+\backup@length=\skip93
+\ar@cellbox=\box66
 ) (c:/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip93
-\RaggedLeftLeftskip=\skip94
-\RaggedRightLeftskip=\skip95
-\CenteringRightskip=\skip96
-\RaggedLeftRightskip=\skip97
-\RaggedRightRightskip=\skip98
-\CenteringParfillskip=\skip99
-\RaggedLeftParfillskip=\skip100
-\RaggedRightParfillskip=\skip101
-\JustifyingParfillskip=\skip102
-\CenteringParindent=\skip103
-\RaggedLeftParindent=\skip104
-\RaggedRightParindent=\skip105
-\JustifyingParindent=\skip106
+\CenteringLeftskip=\skip94
+\RaggedLeftLeftskip=\skip95
+\RaggedRightLeftskip=\skip96
+\CenteringRightskip=\skip97
+\RaggedLeftRightskip=\skip98
+\RaggedRightRightskip=\skip99
+\CenteringParfillskip=\skip100
+\RaggedLeftParfillskip=\skip101
+\RaggedRightParfillskip=\skip102
+\JustifyingParfillskip=\skip103
+\CenteringParindent=\skip104
+\RaggedLeftParindent=\skip105
+\RaggedRightParindent=\skip106
+\JustifyingParindent=\skip107
 )
-\c@magicrownumbers=\count452
-\c@reqcounter=\count453
+\c@magicrownumbers=\count454
+\c@reqcounter=\count455
+\c@mycounter=\count456
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -733,17 +742,17 @@ LaTeX Font Info:    ... okay on input line 6.
 -- Lines per column: 56 (exact).
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count454
-\scratchdimen=\dimen258
-\scratchbox=\box66
-\nofMPsegments=\count455
-\nofMParguments=\count456
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count457
-\MPscratchDim=\dimen259
-\MPnumerator=\count458
-\makeMPintoPDFobject=\count459
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count457
+\scratchdimen=\dimen259
+\scratchbox=\box67
+\nofMPsegments=\count458
+\nofMParguments=\count459
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count460
+\MPscratchDim=\dimen260
+\MPnumerator=\count461
+\makeMPintoPDFobject=\count462
+\everyMPtoPDFconversion=\toks41
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -784,11 +793,28 @@ File: figures/ca_diagram.pdf Graphic file (type pdf)
 <use figures/ca_diagram.pdf>
 Package pdftex.def Info: figures/ca_diagram.pdf  used on input line 47.
 (pdftex.def)             Requested size: 154.80157pt x 151.50867pt.
-[3 <./figures/ca_diagram.pdf>])) (./content/analysis/analysis.tex (./content/analysis/principles.tex
+[3 <./figures/ca_diagram.pdf>])) (./content/requirements/requirements.tex (./content/requirements/functional.tex) (./content/requirements/artifact.tex (./content/requirements/requirementComponent.tex [4]) (./content/requirements/requirementSoftware.tex
+
+LaTeX Warning: Reference `appendix_element_naming_convention' on page 5 undefined on input line 5.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/generic_design.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/generic_design.pdf, id=54, 668.4975pt x 749.29938pt>
+File: figures/generic_design.pdf Graphic file (type pdf)
+<use figures/generic_design.pdf>
+Package pdftex.def Info: figures/generic_design.pdf  used on input line 10.
+(pdftex.def)             Requested size: 206.39685pt x 231.34286pt.
+
+Underfull \hbox (badness 2689) in paragraph at lines 26--29
+[]\OT1/ptm/m/n/10 The Pre-sen-ter Im-ple-men-ta-tion is de-rived from the
+ []
+
+[5 <./figures/generic_design.pdf>]) (./content/requirements/generator.tex [6]) (./content/requirements/generated.tex))) (./content/analysis/analysis.tex (./content/analysis/principles.tex
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 50.
  (c:/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)) (./content/analysis/elements.tex [4{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}])) (./content/conclusion/conclusion.tex [5]) (./content/bibliography.tex)
+) [7{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]) (./content/analysis/elements.tex)) (./content/conclusion/conclusion.tex [8]) (./content/bibliography.tex)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -800,28 +826,32 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6] (./main.aux)
+[9] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19867 strings out of 475188
- 348017 string characters out of 5767805
+ 20276 strings out of 475188
+ 356495 string characters out of 5767805
  1940248 words of memory out of 5000000
- 40841 multiletter control sequences out of 15000+600000
- 597342 words of font info for 111 fonts, out of 8000000 for 9000
+ 41223 multiletter control sequences out of 15000+600000
+ 598449 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,96p,2396b,1823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,96p,2398b,1845s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 113000 bytes).
+Output written on main.pdf (9 pages, 161276 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 201 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

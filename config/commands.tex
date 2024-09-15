@@ -32,6 +32,8 @@
 \newcounter{reqcounter}
 \newcommand\requirementCategory{\arabic{reqcounter}}
 
+\newcounter{mycounter}
+
 \newcommand{\evalTable}[3]{%
 \begin{table}[H]
   \begin{tabular}{ c c p{0.76\linewidth}}
@@ -57,21 +59,10 @@
   \evalTable{The convergence of the element #1 with the elements of \acrshort{ns}}{#2}{#3 \hline}
 } 
 
-\newcommand{\requirement}[3]{%
-\stepcounter{reqcounter}
-  \begin{table}[H]
-    \begin{tabular}{@{\makebox[3em][c]{\requirementCategory.\rownumber\space}}  p{0.87\linewidth}}
-        \multicolumn{1}{@{\makebox[3em][c]{\textbf{Nr.}}}
-        p{0.87\linewidth}}{\textbf{#1 requirements}}\\ 
-    \hline
-
-    #3 \hline
-
-    \hline
-    \end{tabular}
-  \caption{#1 requirements}
-  \label{#2}
-  \end{table}
+\newcommand{\requirement}[1]{%
+\vspace{1em}
+\stepcounter{mycounter}
+\noindent \textit{\textbf{\themycounter.\space #1 requirement}}
 }
 
 \newcommand{\compareTable}[3]{%
