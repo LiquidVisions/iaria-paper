@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.8)  15 SEP 2024 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.8)  15 SEP 2024 11:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -832,12 +832,18 @@ pdfTeX warning: pdflatex.exe (file ./figures/generic_design.pdf): PDF inclusion:
 File: figures/generic_design.pdf Graphic file (type pdf)
 <use figures/generic_design.pdf>
 Package pdftex.def Info: figures/generic_design.pdf  used on input line 10.
-(pdftex.def)             Requested size: 206.39685pt x 231.34286pt.
-[6 <./figures/generic_design.pdf>]) (./content/requirements/generator.tex) (./content/requirements/generated.tex))) (./content/analysis/analysis.tex (./content/analysis/principles.tex [7]
+(pdftex.def)             Requested size: 516.0pt x 578.41434pt.
+) (./content/requirements/generator.tex [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figures/generic_design.pdf>]) (./content/requirements/generated.tex))) (./content/analysis/analysis.tex (./content/analysis/principles.tex
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 50.
  (c:/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)) (./content/analysis/elements.tex)) (./content/conclusion/conclusion.tex [8{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]) (./content/bibliography.tex)
+)) (./content/analysis/elements.tex [8{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}])) (./content/conclusion/conclusion.tex [9]) (./content/bibliography.tex)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -849,7 +855,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[9] (./main.aux)
+[10] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -859,18 +865,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20269 strings out of 475188
- 355673 string characters out of 5767805
+ 20271 strings out of 475188
+ 355731 string characters out of 5767805
  1940248 words of memory out of 5000000
- 41216 multiletter control sequences out of 15000+600000
+ 41218 multiletter control sequences out of 15000+600000
  598449 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,96p,2412b,1843s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 605913 bytes).
+Output written on main.pdf (10 pages, 606102 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
+ 209 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
