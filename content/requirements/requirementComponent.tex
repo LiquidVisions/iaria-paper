@@ -1,35 +1,36 @@
 \subsubsection{Component Architecture Requirements} \label{component_requirements}
 
-The following requirements are applied to the component architecture of both the Generator
+The following requirements apply to the component architecture of both the Generator
 artifact and the Generated artifact.
 
-\requirement{The component architecture}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The solution is organized into separate Visual Studio projects for the Domain,
-    Application, Infrastructure, and Presentation layers of the component. A detailed
-    description of these layers can be found in Section (((FIX FULLREF))).
-    \item The Visual Studio projects representing the component layers comply with the naming
-    conventions outlined in Appendix (((FIX FULLREF))).
-    \item The dependencies between the component layers must follow an inward direction towards
-    the higher-level components as illustrated in Figure \ref{fig_modulair_components}
-    schematically, and cannot skip layers.
-\end{enumerate}
+The component architecture is organized into separate Visual Studio projects for the
+Domain, Application, Infrastructure, and Presentation layers. A detailed description of
+these layers can be found in Section (((FIX FULLREF))). Each of these projects adheres to
+the naming conventions described in Appendix (((FIX FULLREF))). Importantly, the
+dependencies between component layers must follow an inward direction, aligning with
+higher-level components as schematically illustrated in Figure
+\ref{fig_modulair_components}. The dependencies cannot skip layers, ensuring a clear
+hierarchical structure.
 
-\requirement{The technology}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The Domain and Application layers have no dependencies on infrastructure technologies, like web- or
-    database technologies.
-    \item The Presentation Layer relies on various infrastructure technologies for
-    facilitating end-user interaction. Examples of such technologies include Command
-    Line Interfaces (CLIs), RESTful APIs, and web-based solutions. Each dependency is
-    isolated and managed in separate Visual Studio Projects to ensure the stability and
-    evolvability of the system.
-    \item The Infrastructure Layer may rely on other infrastructure components, such as
-    databases or filesystems. Each infrastructure dependency is isolated and managed in
-    separate Visual Studio Projects to promote stability and evolvability.
-    \item All component Layers utilize the C\# programming language, explicitly targeting the
-    .NET 7.0 framework.
-    \item Reusing existing functionality or technology (packages) is permitted only when
-    adhering to the \gls{lsp} and utilizing the open-source package manager,
-    \gls{nuget}.
-\end{enumerate}
+In terms of technology, the Domain and Application layers are designed to be independent
+of any infrastructure technologies, such as web or database technologies. In contrast, the
+Presentation Layer relies on various infrastructure technologies to facilitate interaction
+with end-users. These technologies include Command Line Interfaces (CLIs), RESTful APIs,
+and web-based solutions. Each dependency within the Presentation Layer is isolated and
+managed in separate Visual Studio projects to ensure the system's stability and
+evolvability.
+
+The Infrastructure Layer may rely on additional components, such as databases or
+filesystems, but similar to the Presentation Layer, each infrastructure dependency is
+isolated and managed in its own Visual Studio project to maintain system stability and
+evolvability. All layers within the component architecture utilize the C\# programming
+language, explicitly targeting the .NET 7.0 framework.
+
+Furthermore, the reuse of existing functionality or technology, such as packages, is
+permitted only when it complies with the Liskov Substitution Principle (LSP) and makes use
+of the NuGet open-source package manager. This ensures that any reused components align
+with the overall design principles and maintain the flexibility and integrity of the
+system.
+
+By adhering to these requirements, the component architecture remains well-structured,
+maintainable, and capable of evolving over time.

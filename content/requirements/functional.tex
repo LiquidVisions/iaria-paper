@@ -1,32 +1,39 @@
 \subsubsection{Software Transformation Requirements} \label{sec_requirements_transformation}
 
-We study stability and evolvability by investigating potential combinatorial effects in
-\gls{ca} artifacts. Therefore, during the implementation, we will apply parts of the
-Functional-Construction software Transformation from
-\textcite[251]{mannaert_normalized_2016} by using the following five proposed Functional
-Requirements Specifications. \textcite[254-261]{mannaert_normalized_2016} have defined
-them as follows.
+In order to study stability and evolvability within cellular automata (CA) artifacts, we
+will apply certain principles from the Functional-Construction software transformation, as
+outlined by \textcite[251]{mannaert_normalized_2016}. The Functional Requirements
+Specifications, as proposed by \textcite[254-261]{mannaert_normalized_2016}, offer a
+structured framework that can be applied during the implementation phase to investigate
+combinatorial effects in CA artifacts.
 
-\begin{enumerate}[]
-    \item An information system needs to be able to represent instances of
-    data entities. A data entity consists of several data fields. Such a field may be a basic
-    data field representing a value of a reference to another data entity.
-    
-    \item An information system needs to be able to execute processing actions on
-    instances of data entities. A processing action consists of several consecutive processing
-    tasks. Such a task may be a basic task, i.e., a unit of processing that can change
-    independently or an invocation of another processing action.
-    
-    \item An information system needs to be able to input or output values
-    of instances of data entities through connectors.
-    
-    \item An existing information system representing a set of data entities needs to be
-    able to represent a new version of a data entity that corresponds to including an
-    additional data field and an additional data entity.
-    
-    \item An existing information system providing a set of processing actions needs to
-    be able to provide a new version of a processing task, whose use may be mandatory, a
-    new version of a processing action, whose use may be mandatory, an additional
-    processing task, and an additional processing action
-    
-\end{enumerate}
+First, an information system must be capable of representing instances of data entities.
+These data entities are composed of multiple data fields, which may either represent a
+basic value or serve as a reference to another data entity. This capability ensures that
+the system can efficiently store and manage complex data relationships.
+
+Second, the system must support the execution of processing actions on instances of these
+data entities. A processing action typically consists of a series of tasks, which may
+either be basic units of processing, capable of independent change, or calls to other
+processing actions. This ensures flexibility in how processes are managed and executed
+within the system.
+
+Third, the information system should facilitate input and output of data entity instances
+through defined connectors. This requirement emphasizes the need for seamless integration
+and interaction with external systems or components, allowing for data exchange in a
+structured and efficient manner.
+
+Furthermore, it is essential for an existing information system to accommodate updates to
+data entities. Specifically, the system should be able to represent new versions of data
+entities that include additional fields or even entirely new entities. This allows for
+adaptability as the system evolves over time.
+
+Finally, the system must be able to update its processing actions. This includes providing
+new versions of processing tasks or actions, which may be mandatory for the system to use,
+as well as the ability to introduce additional tasks or actions. This ensures that the
+system can expand and adjust its processing capabilities in response to new requirements
+or changes in the environment.
+
+By adhering to these Functional Requirements Specifications, the system gains both the
+stability to handle existing operations and the evolvability to adapt to future changes
+and requirements.

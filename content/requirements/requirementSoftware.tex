@@ -2,7 +2,7 @@
 
 Figure \ref{fig_design} illustrates the generic software architecture of the artifacts.
 Each instantiated element adheres to the Element Naming Convention outlined in Appendix
-\ref{appendix_element_naming_convention}. The following sections detail the requirements
+(((FIX APPENDIX REF))). The following sections detail the requirements
 specific to each element.
 
 \begin{figure}[H]
@@ -12,172 +12,79 @@ specific to each element.
     \label{fig_design}
 \end{figure}
 
-requirement{The ViewModel}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The ViewModel consists of data attributes representing fields from the
-    corresponding Entity. In addition, it may contain information specific to the user
-    interface.
-    \item The ViewModel has no external dependencies on other objects within the
-    architecture.
-\end{enumerate}
+The ViewModel consists of data attributes representing fields from the corresponding
+Entity and may also contain information specific to the user interface. It is important to
+note that the ViewModel has no external dependencies on other objects within the
+architecture.
 
-\requirement{The Presenter}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The Presenter Implementation is derived from the IPresenter interface and
-    follows the specified implementation. The IPresenter interface can be found in the
-    Application layer.
-    \item The Presenter is responsible for creating the Controller's Response by
-    instantiating the ViewModel, constructing the HTTP Response message, or combining both
-    elements as needed.
-    \item When required, the Presenter utilizes the IMapper interface without depending on
-    specific implementations of the IMapper interface.
-    \item The Presenter has an internal scope and cannot be instantiated outside the
-    Presentation layer.
-\end{enumerate}
+The Presenter is derived from the IPresenter interface and adheres to the specified
+implementation, which is located in the Application layer. Its main responsibility is to
+create the Controller's Response by instantiating the ViewModel, constructing the HTTP
+Response message, or combining both as necessary. When needed, the Presenter utilizes the
+IMapper interface without depending on specific implementations of IMapper. The Presenter
+has an internal scope and cannot be instantiated outside the Presentation layer.
 
-\requirement{The ViewModelMapper}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The ViewModelMapper is derived from the IMapper interface and follows the
-    specified implementation. The IMapper interface can be found in the Application layer.
-    \item The ViewModelMapper is responsible for mapping the values of the necessary data
-    attributes from the ResponseModel to the ViewModel.
-    \item The ViewModelMapper has an internal scope and cannot be instantiated outside the
-    Presentation layer.
-\end{enumerate}
+The ViewModelMapper, derived from the IMapper interface, follows the specified
+implementation found in the Application layer. Its primary role is to map the necessary
+data attributes from the ResponseModel to the ViewModel. The ViewModelMapper also has an
+internal scope, ensuring it cannot be instantiated outside the Presentation layer.
 
-\requirement{The Controller}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The Controller is responsible for receiving external requests and forwarding the
-    request to the appropriate Boundary within the Application layer.
-    \item The Controller relies on the IBoundary interface without depending on specific
-    implementations of the IBoundary interface.
-\end{enumerate}
+The Controller is responsible for receiving external requests and forwarding them to the
+appropriate Boundary within the Application layer. It relies on the IBoundary interface
+without depending on specific implementations of this interface.
 
-\requirement{The IBoundary}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The IBoundary interface establishes the contract for its derived Boundary
-    implementations.
-    \item The IBoundary interface has public scope within the system.
-\end{enumerate}
+The IBoundary interface establishes the contract for its derived Boundary implementations,
+and it has public scope within the system. Boundary implementations, derived from the
+IBoundary interface, ensure separation between the internal aspects of the Application
+Layer and the other layers. Each Boundary implementation handles a single task, executed
+using the IInteractor interface. These implementations also have an internal scope and
+cannot be instantiated outside the Application layer.
 
-\requirement{The Boundary Implementation}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item A Boundary implementation is derived from the IBoundary interface and follows
-    the specified implementation.
-    \item The Boundary implementation separates the internal aspects of the Application
-    Layer and the other layers within the component.
-    \item Each Boundary implementation handles a single task, executed using the
-    IInteractor interface.
-    \item Boundary implementations have an internal scope and cannot be instantiated
-    outside the Application layer.
-\end{enumerate}
+The IInteractor interface defines the contract for its derived Interactor implementations.
+Like Boundary implementations, Interactors have an internal scope and are limited to the
+Application layer. Interactor implementations execute single tasks or orchestrate a series
+of tasks. Tasks dependent on infrastructure components, such as databases, are handled
+through a Gateway. Additionally, Interactor implementations utilize the IMapper interface
+to handle mapping between RequestModels, Entities, and ResponseModels.
 
-\requirement{The IInteractor}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The IInteractor interface establishes the contract for its derived Interactor
-    implementations.
-    \item The IInteractor has an internal scope and cannot be implemented outside the
-    Application layer.
-\end{enumerate}
+The IMapper interface establishes the contract for Mapper implementations and has public
+scope within the system. Derived from IMapper, the RequestModelMapper is responsible for
+mapping the necessary data attributes from the RequestModel to an Entity. The
+RequestModelMapper has internal scope and cannot be instantiated outside the Application
+layer.
 
-\requirement{The Interactor Implementation}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item An Interactor implementation is derived from the IInteractor interface and
-    follows the specified implementation.
-    \item The Interactor implementation executes a single task or orchestrates a series of
-    tasks. Each of these tasks is implemented in separate Interactors. Alternatively, a
-    Gateway is used for Tasks with Infrastructure dependencies, such as data persistence
-    in a database.
-    \item Depending on the task, the Interactor implementation orchestrates the mapping
-    from RequestModels to Entities or from Entities to ResponseModels, utilizing the
-    IMapper interface.
-    \item Interactor implementations have an internal scope and cannot be implemented
-    outside the Application layer.
-\end{enumerate}
+Similarly, the ResponseModelMapper is responsible for mapping data attributes from the
+ResponseModel and follows the same implementation and scope restrictions as the
+RequestModelMapper.
 
-\requirement{The IMapper}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The IMapper interface establishes the contract for its derived Mapper
-    implementations.
-    \item The IMapper interface has a public scope within the system.
-\end{enumerate}
+The IPresenter interface establishes the contract for Presenter implementations, typically
+within the Presentation layer. It has public scope and ensures consistency in Presenter
+behavior throughout the system.
 
-\requirement{The RequestModelMapper}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The RequestModelMapper is derived from the IMapper interface and follows the
-    specified implementation.
-    \item The RequestModelMapper is responsible for mapping the values of the necessary
-    data attributes from the RequestModel to an Entity.
-    \item The RequestModelMapper has an internal scope and cannot be implemented outside
-    the Application layer.
-\end{enumerate}
+The Gateway establishes the contract for interaction with infrastructure technologies such
+as databases or filesystems. Each Gateway follows a specific naming convention, with
+interfaces like ICreateGateway, IGetGateway, IGetByIdGateway, IUpdateGateway, and
+IDeleteGateway representing different CRUD operations. Gateway implementations are derived
+from these interfaces and are responsible for task-specific interactions with
+infrastructure components. These implementations have internal scope and cannot be
+instantiated outside their respective layers.
 
-\requirement{The ResponseModelMapper}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The RequestModelMapper is derived from the IMapper interface and follows the
-    specified implementation.
-    \item The RequestModelMapper is responsible for mapping the values of the necessary
-    data attributes from the RequestModel to an Entity.
-    \item The RequestModelMapper has an internal scope and cannot be implemented outside
-    the Application layer.
-\end{enumerate}
+The ResponseModel consists of data attributes representing fields from the corresponding
+Entity and may include output-specific data for the Interactor. The ResponseModel does not
+depend on external objects within the architecture.
 
-\requirement{The IPresenter}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The IPresenter interface establishes the contract for its derived Presenter
-    implementations, typically implemented as part of the Presentation layer.
-    \item The IPresenter interface has a public scope within the system.
-\end{enumerate}
+The RequestModel is similarly structured, consisting of data attributes from the
+corresponding Entity and input-specific data for the Interactor. It, too, does not depend
+on external objects within the architecture.
 
-\requirement{The Gateway}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The Domain and Application layers have no dependencies on infrastructure
-    technologies, like web- or database technologies.
-    \item The \textit{[Verb]Gateway} interface establishes the contract for its derived
-    Gateway implementations, typically implemented in the Infrastructure layer.
-    \item The \textit{[Verb]}Gateway interface has a public scope within the system.
-    \item Each task is represented in the naming convention of the interface. For example,
-    the basic CRUD actions result in five IGateway interfaces:  ICreateGateway,
-    IGetGateway, IGetByIdGateway, IUpdateGateway, and IDeleteGateway.
-\end{enumerate}
+Data Entities represent corresponding data fields and do not rely on external objects.
+They are only utilized by the Application layer.
 
-\requirement{The ResponseModel}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The ResponseModel consists primarily of data attributes representing the fields
-    of the corresponding Entity. Additionally, the ResponseModel may contain data specific
-    to the output of the Interactor.
-    \item The ResponseModel does not depend on external objects within the architecture.
-\end{enumerate}
+The Gateway Implementation derives from the corresponding Gateway interface and adheres to
+the specified implementation. It is responsible for handling tasks associated with its
+infrastructure technology, such as interaction with a SQL database or filesystem. Gateway
+Implementations have internal scope and cannot be instantiated outside their respective
+layers.
 
-\requirement{The RequestModel}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The RequestModel consists primarily of data attributes representing the fields
-    of the corresponding Entity. Additionally, the RequestModel may contain data specific
-    to the input of the Interactor.
-    \item The RequestModel does not depend on external objects within the architecture.
-\end{enumerate}
-
-\requirement{The Data Entity}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The Data Entity consists solely of attributes representing the corresponding
-    data fields.
-    \item The Data Entity does not rely on external objects within the architecture.
-    \item The Application layer is the only layer that utilizes the Data Entity.
-\end{enumerate}
-
-\requirement{The Gateway Implementation}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The [\textit{Verb}]Gateway Implementation derives from the
-    I[\textit{Verb}]Gateway interface and adheres to the specified implementation.
-    \item The [\textit{Verb}]Gateway Implementation is responsible for the interaction
-    associated with the specific task, utilizing the infrastructure technology of the
-    specific layer (e.g., a SQL database or a filesystem).
-    \item The [\textit{Verb}]Gateway Implementation has an internal scope and cannot be
-    instantiated outside the layer.
-\end{enumerate}
-
-\requirement{The Design Principles}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item Each architectural pattern adheres to at least one of the SOLID principles to
-    ensure that none of the implementations violate these principles.
-\end{enumerate}
+Lastly, each architectural pattern adheres to at least one of the SOLID principles,
+ensuring compliance and avoiding violations of these design principles.

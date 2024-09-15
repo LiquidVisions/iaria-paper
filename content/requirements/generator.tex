@@ -1,34 +1,33 @@
 \subsubsection{Expander Framework \& Clean Architecture Expander Requirements} \label{expander_framework_requirements}
 
-In addition to the more generic requirements of previous sections, the following
-requirements are specific for the Clean Architecture Expander \& Expander Framework artifact.
+In addition to the more generic requirements outlined in previous sections, the following
+requirements are specific to the Clean Architecture Expander and Expander Framework
+artifact.
 
-\requirement{The Expander Framework}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The Expander Framework enables interaction with the Clean Architecture Expander via a
-    \gls{cli}. The \gls{cli} is implemented in the Presentation layer of the
-    Expander Framework.
-    \item The Expander Framework retrieves the model from an \gls{mssql} using the
-    EntityFramework ORM technology. The EntityFramework technology is implemented in the
-    Infrastructure layer of the Expander Framework.
-    \item The Expander Framework loads and executes the configured Expanders. In the case of
-    this research, only the Clean Architecture Expander is applied.
-    \item The Expander Framework supports generic harvesting and injection, which can be
-    used or extended by the Expanders using the \gls{ocp} principle.
-    \item The Expander Framework supports generic template handling, which can be used or
-    extended by the Expanders using the \gls{ocp} principle.
-    \item The Expander framework adheres to this chapter's component and software Requirements
-    specified in Sections \ref{component_requirements} and \ref{software_requirements}.
-\end{enumerate}
+The Expander Framework facilitates interaction with the Clean Architecture Expander via a
+command-line interface (CLI), which is implemented in the Presentation layer of the
+framework. Additionally, the Expander Framework retrieves models from a Microsoft SQL
+Server (MSSQL) database using EntityFramework ORM technology, integrated within the
+Infrastructure layer. The framework also supports loading and executing configured
+Expanders, though in this particular research, only the Clean Architecture Expander is
+applied.
 
-\requirement{The Clean Architecture Expander}
-\begin{enumerate}[label=\themycounter.\arabic*]
-    \item The Clean Architecture Expander generates a C\# net7.0 RESTful service that provides an
-    HTTP interface on top of the meta-model of the Expander Framework, allowing the basic
-    \gls{crud} operations.
-    \item The Clean Architecture Expander consists solely of an Application layer and reuses
-    the Domain layer of the Expander Framework.
-    \item The Clean Architecture Expander adheres to this chapter's component and software
-    Requirements specified in Sections \ref{component_requirements} and
-    \ref{software_requirements}.
-\end{enumerate}
+Moreover, the Expander Framework supports generic harvesting and injection
+functionalities, which can be extended or used by the Expanders in accordance with the
+Open-Closed Principle (OCP). This extensibility is further enhanced by the framework's
+support for generic template handling, also designed to be extended by the Expanders
+following the OCP. The framework adheres to the component and software requirements
+outlined in Sections \ref{component_requirements} and \ref{software_requirements} of this
+chapter.
+
+The Clean Architecture Expander specifically generates a C\# .NET 7.0 RESTful service,
+which provides an HTTP interface atop the Expander Framework’s meta-model, enabling basic
+Create, Read, Update, Delete (CRUD) operations. This expander consists solely of an
+Application layer and reuses the Domain layer provided by the Expander Framework.
+Additionally, the Clean Architecture Expander adheres to the component and software
+requirements set forth in Sections \ref{component_requirements} and
+\ref{software_requirements} of this chapter.
+
+By adhering to these requirements, both the Expander Framework and the Clean Architecture
+Expander align with the overall architecture goals while maintaining flexibility and
+extensibility.
