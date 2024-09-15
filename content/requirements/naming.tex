@@ -1,11 +1,21 @@
 \subsubsection{Component Layer Naming Conventions} \label{appendix_component_naming_convention}
 
+The following section introduces the naming conventions applied throughout the project.
+While these conventions do not directly contribute to the stability aspects of the
+software architecture, they serve an important role. By adhering to consistent and
+descriptive naming patterns, it becomes easier to follow the structure of the code and
+identify key components of the artifacts. These naming conventions help readers recognize
+and map various elements to their corresponding roles within the \gls{ca} framework,
+enhancing clarity and improving code comprehension without affecting the system's inherent
+stability.
+
 \textbf{[PROD]} is defined as \textit{The name of the product of the software.} \newline 
 \textbf{[COMP]} is defined as \textit{The name of the Company that is considered the owner of the software. If
 there is no company involved, this can be left blank.} \newline 
 \textbf{[TECH]} is defined as \textit{The primary technology that is used by the component layer.} 
 
 \begin{table}[H]
+  \renewcommand{\arraystretch}{1.5}
     \footnotesize
     \caption{Naming convention component layers}
     \begin{tabular}{ l l }
@@ -27,10 +37,11 @@ there is no company involved, this can be left blank.} \newline
 \textbf{[Verb]} is defined as \textit{The primary action that that class or interface is assosiated with.} \newline 
 \textbf{[Noun]} is defined as \textit{The primary subject or object that that class or interface is assosiated with.} 
 
-\begin{table}[H]
+\begin{table}[ht]
+  \renewcommand{\arraystretch}{1.5}
   \footnotesize
   \caption{Naming convention of recurring elements}
-  \begin{tabular}{ p{0.17\linewidth} | p{0.19\linewidth} | p{0.11\linewidth} | p{0.33\linewidth} | }
+  \begin{tabular}{ p{0.17\linewidth}  p{0.19\linewidth}  p{0.11\linewidth}  p{0.33\linewidth} }
   \hline
   \textbf{Layer} & \textbf{Element} & \textbf{Type} & \textbf{Convention} \\ \hline
   Presentation & Controller & class & [\textit{Noun}]Controller \\

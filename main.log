@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.8)  15 SEP 2024 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.8)  15 SEP 2024 20:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -799,35 +799,32 @@ File: figures/ca_diagram.pdf Graphic file (type pdf)
 <use figures/ca_diagram.pdf>
 Package pdftex.def Info: figures/ca_diagram.pdf  used on input line 47.
 (pdftex.def)             Requested size: 154.80157pt x 151.50867pt.
-[3 <./figures/Picture1.png> <./figures/Picture2.png>] [4 <./figures/ca_diagram.pdf>])) (./content/requirements/requirements.tex (./content/requirements/functional.tex) (./content/requirements/artifact.tex (./content/requirements/naming.tex
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[3 <./figures/Picture1.png> <./figures/Picture2.png>] [4 <./figures/ca_diagram.pdf>])) (./content/requirements/requirements.tex (./content/requirements/functional.tex) (./content/requirements/artifact.tex [5] (./content/requirements/naming.tex
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\OT1/ptm/m/n/8 ViewModel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 []|\OT1/ptm/m/n/8 [\OT1/ptm/m/it/8 Noun\OT1/ptm/m/n/8 ]ViewModel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []|\OT1/ptm/m/n/8 Request-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 []|\OT1/ptm/m/n/8 [\OT1/ptm/m/it/8 Verb\OT1/ptm/m/n/8 ][\OT1/ptm/m/it/8 Noun\OT1/ptm/m/n/8 ]Request-
  []
 
 
-Overfull \hbox (0.69595pt too wide) in paragraph at lines 52--52
+Overfull \hbox (0.69595pt too wide) in paragraph at lines 63--63
 []|\OT1/ptm/m/n/8 Infrastructure| 
  []
 
-) (./content/requirements/requirementComponent.tex
-Underfull \vbox (badness 1694) has occurred while \output is active []
-
- [5]) (./content/requirements/requirementSoftware.tex
+) (./content/requirements/requirementComponent.tex) (./content/requirements/requirementSoftware.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/generic_design.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/generic_design.pdf, id=62, 668.4975pt x 749.29938pt>
@@ -835,17 +832,218 @@ File: figures/generic_design.pdf Graphic file (type pdf)
 <use figures/generic_design.pdf>
 Package pdftex.def Info: figures/generic_design.pdf  used on input line 10.
 (pdftex.def)             Requested size: 516.0pt x 578.41434pt.
-[6]
+[6]) (./content/requirements/generator.tex [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) (./content/requirements/generated.tex
 Underfull \vbox (badness 6675) has occurred while \output is active []
 
+ [8 <./figures/generic_design.pdf>]))) (./content/artifacts/artifacts.tex
 
-Underfull \vbox (badness 6675) has occurred while \output is active []
+pdfTeX warning: pdflatex.exe (file ./figures/artifactOverview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/artifactOverview.pdf, id=173, 529.37778pt x 417.76076pt>
+File: figures/artifactOverview.pdf Graphic file (type pdf)
+<use figures/artifactOverview.pdf>
+Package pdftex.def Info: figures/artifactOverview.pdf  used on input line 33.
+(pdftex.def)             Requested size: 206.39685pt x 162.87503pt.
+(./content/artifacts/name.tex) (./content/artifacts/metamodel.tex
 
- [7 <./figures/generic_design.pdf>]) (./content/requirements/generator.tex) (./content/requirements/generated.tex))) (./content/analysis/analysis.tex (./content/analysis/principles.tex [8]
+pdfTeX warning: pdflatex.exe (file ./figures/erd.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/erd.pdf, id=174, 684.2564pt x 516.2286pt>
+File: figures/erd.pdf Graphic file (type pdf)
+<use figures/erd.pdf>
+Package pdftex.def Info: figures/erd.pdf  used on input line 13.
+(pdftex.def)             Requested size: 206.39685pt x 155.71262pt.
+) (./content/artifacts/plugin.tex
+
+pdfTeX warning: pdflatex.exe (file ./figures/plugin_architecture.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/plugin_architecture.pdf, id=175, 390.65952pt x 237.58762pt>
+File: figures/plugin_architecture.pdf Graphic file (type pdf)
+<use figures/plugin_architecture.pdf>
+Package pdftex.def Info: figures/plugin_architecture.pdf  used on input line 10.
+(pdftex.def)             Requested size: 206.39685pt x 125.52205pt.
+) (./content/artifacts/expanders.tex [9 <./figures/artifactOverview.pdf> <./figures/erd.pdf> <./figures/plugin_architecture.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/expander.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/expander.pdf, id=267, 565.91423pt x 222.23024pt>
+File: figures/expander.pdf Graphic file (type pdf)
+<use figures/expander.pdf>
+Package pdftex.def Info: figures/expander.pdf  used on input line 20.
+(pdftex.def)             Requested size: 206.39685pt x 81.05063pt.
+) (./content/artifacts/executer.tex
+
+pdfTeX warning: pdflatex.exe (file ./figures/command_pattern.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/command_pattern.pdf, id=268, 527.9725pt x 256.96pt>
+File: figures/command_pattern.pdf Graphic file (type pdf)
+<use figures/command_pattern.pdf>
+Package pdftex.def Info: figures/command_pattern.pdf  used on input line 15.
+(pdftex.def)             Requested size: 206.39685pt x 100.44923pt.
+) (./content/artifacts/di.tex
+
+LaTeX Warning: Reference `list_Injecting' on page 10 undefined on input line 35.
+
+
+LaTeX Warning: Reference `list_dip' on page 10 undefined on input line 37.
+
+)) (./content/analysis/analysis.tex [10 <./figures/expander.pdf> <./figures/command_pattern.pdf>] (./content/analysis/principles.tex
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 50.
  (c:/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)) (./content/analysis/elements.tex)) (./content/conclusion/conclusion.tex [9{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]) (./content/bibliography.tex)
+)) (./content/analysis/elements.tex [11{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}])) (./content/conclusion/conclusion.tex [12]) (./content/bibliography.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 IEx-pander-Han-d-ler-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 IEx-e-cu-tion-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023. [On-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 line]. Avail-able: $https : / / github . com /
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Ex-pandEn-ti-tiesHan-d-ler-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Re-gion-Har-vester-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Re-gion-Re-ju-ve-na-tor-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 Avail-able: $https : / / github . com / LiquidVisions /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Code-Gen-er-a-tor-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 De-pen-den-cy-In-jec-tionEx-ten-sion\OT1/ptm/m/n/10 , 2023. [On-
+ []
+
+[13]
+Underfull \hbox (badness 1681) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 IDe-pen-den-cy-Fac-to-ry-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023. [On-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Ab-stract-Ex-pander\OT1/ptm/m/n/10 , 2023. [On-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 line]. Avail-able: $https : / / github . com /
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -857,28 +1055,34 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[10] (./main.aux)
+[14
+
+] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20284 strings out of 475188
- 356147 string characters out of 5767805
- 1948248 words of memory out of 5000000
- 41227 multiletter control sequences out of 15000+600000
- 599585 words of font info for 113 fonts, out of 8000000 for 9000
+ 20437 strings out of 475188
+ 362377 string characters out of 5767805
+ 1946248 words of memory out of 5000000
+ 41357 multiletter control sequences out of 15000+600000
+ 602248 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,96p,2412b,1843s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,96p,2422b,2003s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 609959 bytes).
+Output written on main.pdf (14 pages, 694990 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
+ 359 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

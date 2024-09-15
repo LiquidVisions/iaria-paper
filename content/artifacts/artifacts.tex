@@ -1,0 +1,43 @@
+\section{The Research Artifacts}
+
+The first artifact consists of two main components: the Clean Architecture Expander and
+the Expander framework. The name of the Expander Framework, Pantha Rhei, was inspired by
+the Greek philosopher \emph{Heraclitus}, who famously stated that \enquote{life is flux.}
+The name reflects the artifact's perceived ability to cope with constant change in a
+stable and evolvable manner. Users can interact with the Expander Framework using the
+\gls{cli} command \enquote*{flux} in combination with several parameters.
+
+As illustrated in Figure \ref{fig_overview_design}, the main task of the first artifact or
+\enquote*{expand} the second artifact. By entering the correct command, the Expander
+Framework loads the model being instantiated during the expansion process. Then, the
+required expanders are prepared based on information available through the model. In the
+case of this study, the Clean Architecture Expander. The Clean Architecture Expander
+consists of a set of tasks and templates. When the Expander Framework executes the Clean
+Architecture Expander, the model is instantiated into the generated artifact with the aid
+of the templates.
+
+The model is an instance of the meta-model. Consequently, the model can represent any
+application as long as the meta-model is respected. In the case of this study, the model
+represents the entities, attributes, relationships, and other characteristics of the
+meta-model.
+
+As a result, the second artifact (artifact II) allows a user to modify or maintain the
+model used by the Expander Framework by exposing a Restful interface. This method
+approaches the meta-circularity process, where an expansion process is used to update the
+meta-model. Although not fully compliant with the theory of \gls{ns}, the Expander
+Framework consists of the required tasks to update its own meta-model. This is illustrated
+in Figure \ref{fig_overview_design} by the \enquote*{updates} arrow.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figures/artifactOverview.pdf}
+    \caption[Schematic overview of the artifacts]{Schematic overview of the artifacts}
+    \label{fig_overview_design}
+  \end{figure}
+
+\input{content/artifacts/name}
+\input{content/artifacts/metamodel}
+\input{content/artifacts/plugin}
+\input{content/artifacts/expanders}
+\input{content/artifacts/executer}
+\input{content/artifacts/di}
