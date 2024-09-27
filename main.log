@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.8)  15 SEP 2024 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.8)  27 SEP 2024 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -678,40 +678,129 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box64
 \enit@count@id=\count452
 \enitdp@description=\count453
-) (c:/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+ (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+ (c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count454
+)
+\@linkdim=\dimen256
+\Hy@linkcounter=\count455
+\Hy@pagecounter=\count456
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count457
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count458
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen257
+ (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count459
+\Field@Width=\dimen258
+\Fld@charsize=\dimen259
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count460
+\c@Item=\count461
+\c@Hfootnote=\count462
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count463
+\c@bookmark@seq@number=\count464
+ (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip92
+)
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 20.
+ (c:/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )) (./config/abbreviations.tex) (./config/commands.tex (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
-\ttl@leftsep=\dimen256
+\ttl@leftsep=\dimen260
 ) (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen257
+\col@sep=\dimen261
 \ar@mcellbox=\box65
-\extrarowheight=\dimen258
+\extrarowheight=\dimen262
 \NC@list=\toks39
-\extratabsurround=\skip92
-\backup@length=\skip93
+\extratabsurround=\skip93
+\backup@length=\skip94
 \ar@cellbox=\box66
 ) (c:/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip94
-\RaggedLeftLeftskip=\skip95
-\RaggedRightLeftskip=\skip96
-\CenteringRightskip=\skip97
-\RaggedLeftRightskip=\skip98
-\RaggedRightRightskip=\skip99
-\CenteringParfillskip=\skip100
-\RaggedLeftParfillskip=\skip101
-\RaggedRightParfillskip=\skip102
-\JustifyingParfillskip=\skip103
-\CenteringParindent=\skip104
-\RaggedLeftParindent=\skip105
-\RaggedRightParindent=\skip106
-\JustifyingParindent=\skip107
+\CenteringLeftskip=\skip95
+\RaggedLeftLeftskip=\skip96
+\RaggedRightLeftskip=\skip97
+\CenteringRightskip=\skip98
+\RaggedLeftRightskip=\skip99
+\RaggedRightRightskip=\skip100
+\CenteringParfillskip=\skip101
+\RaggedLeftParfillskip=\skip102
+\RaggedRightParfillskip=\skip103
+\JustifyingParfillskip=\skip104
+\CenteringParindent=\skip105
+\RaggedLeftParindent=\skip106
+\RaggedRightParindent=\skip107
+\JustifyingParindent=\skip108
 )
-\c@magicrownumbers=\count454
-\c@reqcounter=\count455
-\c@mycounter=\count456
+\c@magicrownumbers=\count465
+\c@reqcounter=\count466
+\c@mycounter=\count467
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -732,20 +821,24 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 -- Lines per column: 56 (exact).
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count457
-\scratchdimen=\dimen259
+\scratchcounter=\count468
+\scratchdimen=\dimen263
 \scratchbox=\box67
-\nofMPsegments=\count458
-\nofMParguments=\count459
+\nofMPsegments=\count469
+\nofMParguments=\count470
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count460
-\MPscratchDim=\dimen260
-\MPnumerator=\count461
-\makeMPintoPDFobject=\count462
+\MPscratchCnt=\count471
+\MPscratchDim=\dimen264
+\MPnumerator=\count472
+\makeMPintoPDFobject=\count473
 \everyMPtoPDFconversion=\toks41
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -768,6 +861,11 @@ Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
+Package hyperref Info: Link coloring OFF on input line 6.
+ (./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
  (./content/title.tex) (./content/abstract.tex) (./content/keywords.tex) (./content/introduction/introduction.tex) (./content/theory/theory.tex (./content/theory/concepts.tex) (./content/theory/fundamentals_ns.tex [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
@@ -780,13 +878,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/Picture1.png, id=10, 375.804pt x 200.0565pt>
+<figures/Picture1.png, id=168, 375.804pt x 200.0565pt>
 File: figures/Picture1.png Graphic file (type png)
 <use figures/Picture1.png>
 Package pdftex.def Info: figures/Picture1.png  used on input line 85.
 (pdftex.def)             Requested size: 263.061pt x 140.03859pt.
  [2]
-<figures/Picture2.png, id=16, 382.374pt x 156.0375pt>
+<figures/Picture2.png, id=177, 382.374pt x 156.0375pt>
 File: figures/Picture2.png Graphic file (type png)
 <use figures/Picture2.png>
 Package pdftex.def Info: figures/Picture2.png  used on input line 120.
@@ -794,7 +892,7 @@ Package pdftex.def Info: figures/Picture2.png  used on input line 120.
 ) (./content/theory/ca.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/ca_diagram.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/ca_diagram.pdf, id=17, 254.24988pt x 248.82962pt>
+<figures/ca_diagram.pdf, id=180, 254.24988pt x 248.82962pt>
 File: figures/ca_diagram.pdf Graphic file (type pdf)
 <use figures/ca_diagram.pdf>
 Package pdftex.def Info: figures/ca_diagram.pdf  used on input line 47.
@@ -824,10 +922,15 @@ Overfull \hbox (0.69595pt too wide) in paragraph at lines 63--63
 []|\OT1/ptm/m/n/8 Infrastructure| 
  []
 
-) (./content/requirements/requirementComponent.tex) (./content/requirements/requirementSoftware.tex
+) (./content/requirements/requirementComponent.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+) (./content/requirements/requirementSoftware.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/generic_design.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/generic_design.pdf, id=62, 668.4975pt x 749.29938pt>
+<figures/generic_design.pdf, id=250, 668.4975pt x 749.29938pt>
 File: figures/generic_design.pdf Graphic file (type pdf)
 <use figures/generic_design.pdf>
 Package pdftex.def Info: figures/generic_design.pdf  used on input line 10.
@@ -841,7 +944,7 @@ Underfull \vbox (badness 6675) has occurred while \output is active []
  [8 <./figures/generic_design.pdf>]))) (./content/artifacts/artifacts.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/artifactOverview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/artifactOverview.pdf, id=173, 529.37778pt x 417.76076pt>
+<figures/artifactOverview.pdf, id=375, 529.37778pt x 417.76076pt>
 File: figures/artifactOverview.pdf Graphic file (type pdf)
 <use figures/artifactOverview.pdf>
 Package pdftex.def Info: figures/artifactOverview.pdf  used on input line 33.
@@ -849,7 +952,7 @@ Package pdftex.def Info: figures/artifactOverview.pdf  used on input line 33.
 (./content/artifacts/name.tex) (./content/artifacts/metamodel.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/erd.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/erd.pdf, id=174, 684.2564pt x 516.2286pt>
+<figures/erd.pdf, id=377, 684.2564pt x 516.2286pt>
 File: figures/erd.pdf Graphic file (type pdf)
 <use figures/erd.pdf>
 Package pdftex.def Info: figures/erd.pdf  used on input line 13.
@@ -857,7 +960,7 @@ Package pdftex.def Info: figures/erd.pdf  used on input line 13.
 ) (./content/artifacts/plugin.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/plugin_architecture.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/plugin_architecture.pdf, id=175, 390.65952pt x 237.58762pt>
+<figures/plugin_architecture.pdf, id=379, 390.65952pt x 237.58762pt>
 File: figures/plugin_architecture.pdf Graphic file (type pdf)
 <use figures/plugin_architecture.pdf>
 Package pdftex.def Info: figures/plugin_architecture.pdf  used on input line 10.
@@ -865,7 +968,7 @@ Package pdftex.def Info: figures/plugin_architecture.pdf  used on input line 10.
 ) (./content/artifacts/expanders.tex [9 <./figures/artifactOverview.pdf> <./figures/erd.pdf> <./figures/plugin_architecture.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figures/expander.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/expander.pdf, id=267, 565.91423pt x 222.23024pt>
+<figures/expander.pdf, id=479, 565.91423pt x 222.23024pt>
 File: figures/expander.pdf Graphic file (type pdf)
 <use figures/expander.pdf>
 Package pdftex.def Info: figures/expander.pdf  used on input line 20.
@@ -873,7 +976,7 @@ Package pdftex.def Info: figures/expander.pdf  used on input line 20.
 ) (./content/artifacts/executer.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/command_pattern.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/command_pattern.pdf, id=268, 527.9725pt x 256.96pt>
+<figures/command_pattern.pdf, id=484, 527.9725pt x 256.96pt>
 File: figures/command_pattern.pdf Graphic file (type pdf)
 <use figures/command_pattern.pdf>
 Package pdftex.def Info: figures/command_pattern.pdf  used on input line 15.
@@ -889,161 +992,32 @@ LaTeX Warning: Reference `list_dip' on page 10 undefined on input line 37.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 50.
  (c:/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)) (./content/analysis/elements.tex [11{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}])) (./content/conclusion/conclusion.tex [12]) (./content/bibliography.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 IEx-pander-Han-d-ler-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
+)) (./content/analysis/elements.tex [11{c:/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}])) (./content/conclusion/conclusion.tex [12]) (./content/bibliography.tex
+Underfull \hbox (badness 2005) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 P a n t h a R h e i  / b l o b  / 9687c 96e b 368d 96201d 4b a a 66b 1b 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
+Underfull \hbox (badness 1810) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 E x p a n d e r s  . C l e a n A r c h i t e c t u r e  / H a n d l e r s  / D o m a i n  /
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
+Underfull \hbox (badness 2065) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 Avail-able: []$h t t p s  : / / g i t h u b  . c o m  / L i q u i d V i s i o n s  /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
+Underfull \hbox (badness 2065) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 Avail-able: []$h t t p s  : / / g i t h u b  . c o m  / L i q u i d V i s i o n s  /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 IEx-e-cu-tion-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023. [On-
+Underfull \hbox (badness 4229) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 G e n e r a t o r  . A p p l i c a t i o n  / I n t e r a c t o r s  / G e n e r a t o r s  /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 line]. Avail-able: $https : / / github . com /
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Ex-pandEn-ti-tiesHan-d-ler-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Re-gion-Har-vester-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Re-gion-Re-ju-ve-na-tor-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
- []
-
-
-Underfull \hbox (badness 3000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 Avail-able: $https : / / github . com / LiquidVisions /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Code-Gen-er-a-tor-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 [On-line]. Avail-able: $https : / / github . com /
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 De-pen-den-cy-In-jec-tionEx-ten-sion\OT1/ptm/m/n/10 , 2023. [On-
- []
-
-[13]
-Underfull \hbox (badness 1681) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 IDe-pen-den-cy-Fac-to-ry-In-ter-ac-tor\OT1/ptm/m/n/10 , 2023. [On-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]\OT1/ptm/m/n/10 G. Koks, \OT1/ptm/m/it/10 Ab-stract-Ex-pander\OT1/ptm/m/n/10 , 2023. [On-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 line]. Avail-able: $https : / / github . com /
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 LiquidVisions / LiquidVisions . PanthaRhei / blob /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\OT1/ptm/m/n/10 9687c96eb368d96201d4baa66b1b0536cb90c12c /
- []
-
+[13])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1066,23 +1040,28 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 437A8916684C7282AD8CD21BCC82786F;5631.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20437 strings out of 475188
- 362377 string characters out of 5767805
- 1946248 words of memory out of 5000000
- 41357 multiletter control sequences out of 15000+600000
+ 26606 strings out of 475188
+ 458662 string characters out of 5767805
+ 1984248 words of memory out of 5000000
+ 47365 multiletter control sequences out of 15000+600000
  602248 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,96p,2422b,2003s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,96p,2422b,2024s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{cite.0@wikipedia_service_2023} has been referenced but does not exist, replaced by a fixed one
+
 <c:/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 694990 bytes).
+Output written on main.pdf (14 pages, 705576 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 698 PDF objects out of 1000 (max. 8388607)
+ 645 compressed objects within 7 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,11 +13,18 @@
 \usepackage{fontawesome}
 \usepackage{booktabs}
 \usepackage{enumitem} % Add this line to the preamble of your document for custom numbering
-%\usepackage[british]{babel}
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{
+pdfnewwindow=True,
+}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{8000}
+    
 \makeatletter
 \renewcommand\IEEEkeywordsname{Keywords}
 \makeatother
