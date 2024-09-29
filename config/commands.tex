@@ -81,3 +81,8 @@
 }
 \newcommand{\highlight}[1]{\textit{\textbf{#1}}}
 \newcommand{\glslong}[1]{\highlight{\gls{#1}}}
+
+\makeatletter
+\def\subsubsection{\@startsection{subsubsection}{3}{\parindent}{1ex plus 0.1ex minus 0.1ex}%
+    {0.7ex plus .5ex minus 0ex}{\normalfont\normalsize\itshape}}%
+\makeatother

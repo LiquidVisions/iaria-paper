@@ -1,0 +1,70 @@
+\section{Comparing the elements elements}
+
+In this section we compare the design elements of \gls{ca} and \gls{ns}, exploring their
+convergence and application in software design. The discussion is anchored in the results
+of the research  \citetitle{koks_convergence_2023} \cite{koks_convergence_2023}, which
+examines the elements \gls{ca} and \gls{ns} mentioned in previous chapters, from both a
+theoretical and practical perspective.
+
+The Data Element from \gls{ns} and the Entity Element from \gls{ca} represent data objects
+of the ontology or data schema, typically including attributes and relationship
+information. While both can contain a complete set of attributes and relationships, the
+Data Element of \gls{ns} may also be tailored to serve a specific set of information
+required for a single task or use case. In \gls{ca}, these types of Data Elements are
+explicitly specified as ViewModels, RequestModels, or Response Models.
+
+The Interactor element of \gls{ca} and the Task and WorkFlow elements of \gls{ns} are all
+responsible for encapsulating business rules. \gls{ns} has a more strict approach to
+encapsulating the execution of business rules in Task Elements, as it is only allowed to
+have a single execution of a business rule. Additionally, the WorkFlow element is
+responsible for executing multiple tasks statefully and is highly convergable with the
+Interactor element of \gls{ca}.
+
+The convergence of the Controller element from \gls{ca} with \gls{ns} is highlighted by
+its partial interchangeability with the Connector and Trigger elements in \gls{ns}. The
+Controller Element is primarily responsible for interaction using protocols and
+technologies involving the user interface, while the Connector and Trigger elements are
+also intended to interact with other types of external systems.
+ 
+The Gateway element of \gls{ca} and the Connector element of \gls{ns} communicate between
+components by providing Data Version Transparent interfaces to provide Action Version
+Transparency between these components.
+
+The Presenter is responsible for preparing the ViewModel on the controller's behalf and
+can be considered a Task or Workflow Element in the theories of \gls{ns}.
+
+The Boundary element of \gls{ca} strongly converges with the Connector element of
+\gls{ns}, as both are involved in communication between components and help ensure loose
+coupling between these components. However, the Boundary element's scope seems more
+specific, as this element usually separates architectural boundaries within the
+application or component.
+
+In the following table, we summarize the analysis in a tabular overview using the same
+denotation used in Section \ref{subsec:converging_principles}.
+
+\begin{table}[htbp]
+    \caption{The convergence between \gls{ca} and \gls{ns} elements.} 
+    \renewcommand{\arraystretch}{1.5}
+    \centering
+    \begin{tabular}{r|lllll}
+    
+        \textbf{\acrlong{ca}   } \textbf{   \rotatebox[origin=l]{90}{\acrlong{ns}}} & 
+        \rotatebox[origin=l]{90}{Data Elements} & \rotatebox[origin=l]{90}{Task Element} &
+        \rotatebox[origin=l]{90}{Flow Element} & \rotatebox[origin=l]{90}{Connector
+        Element} & \rotatebox[origin=l]{90}{Trigger Element} \\
+    \midrule
+    
+    
+    Entity Element & \fullConvergence & \noConvergence & \noConvergence & \noConvergence & \noConvergence \\
+    Interactor Element & \noConvergence & \fullConvergence & \fullConvergence & \noConvergence & \noConvergence \\
+    RequestModel Element & \fullConvergence & \noConvergence & \noConvergence & \noConvergence & \noConvergence \\ 
+    ResponseModel Element & \fullConvergence & \noConvergence & \noConvergence & \noConvergence & \noConvergence \\
+    ViewModel Element & \fullConvergence & \noConvergence & \noConvergence & \noConvergence & \noConvergence \\
+    Controller Element & \noConvergence & \noConvergence & \noConvergence & \npartialConvergence & \npartialConvergence \\
+    Gateway Element & \noConvergence & \noConvergence & \noConvergence & \fullConvergence & \noConvergence \\
+    Presenter Element & \noConvergence & \npartialConvergence & \npartialConvergence & \noConvergence & \noConvergence \\
+    Boundary Element & \noConvergence & \noConvergence & \noConvergence & \fullConvergence & \noConvergence \\
+    \bottomrule
+    \end{tabular}
+    \label{tab_convergence_elements_summarized}
+\end{table}

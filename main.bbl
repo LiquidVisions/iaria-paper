@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{koks_convergence_2023}{thesis}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{koks_convergence_2023}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=ccafbbd4912ab04062eee0c4c4ee27ca}{%
            family={Koks},
@@ -32,11 +32,12 @@
       }
       \strng{namehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
       \strng{fullhash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{fullhashraw}{ccafbbd4912ab04062eee0c4c4ee27ca}
       \strng{bibnamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
       \strng{authorbibnamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
       \strng{authornamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
       \strng{authorfullhash}{ccafbbd4912ab04062eee0c4c4ee27ca}
-      \field{extraname}{1}
+      \strng{authorfullhashraw}{ccafbbd4912ab04062eee0c4c4ee27ca}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -58,7 +59,7 @@
       \endverb
       \keyw{bib}
     \endentry
-    \entry{d_mcilroy_nato_1968}{article}{}
+    \entry{d_mcilroy_nato_1968}{article}{}{}
       \name{author}{1}{}{%
         {{hash=0605015d9f67ffb872f9e8bd52914b9b}{%
            family={{D. McIlroy}},
@@ -69,10 +70,12 @@
       }
       \strng{namehash}{0605015d9f67ffb872f9e8bd52914b9b}
       \strng{fullhash}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{fullhashraw}{0605015d9f67ffb872f9e8bd52914b9b}
       \strng{bibnamehash}{0605015d9f67ffb872f9e8bd52914b9b}
       \strng{authorbibnamehash}{0605015d9f67ffb872f9e8bd52914b9b}
       \strng{authornamehash}{0605015d9f67ffb872f9e8bd52914b9b}
       \strng{authorfullhash}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{authorfullhashraw}{0605015d9f67ffb872f9e8bd52914b9b}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -84,7 +87,7 @@
       \endverb
       \keyw{bib}
     \endentry
-    \entry{lehman_programs_1980}{article}{}
+    \entry{lehman_programs_1980}{article}{}{}
       \name{author}{1}{}{%
         {{hash=208034b4fbd36d5bd6f17ff8c0b1afad}{%
            family={Lehman},
@@ -94,10 +97,12 @@
       }
       \strng{namehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
       \strng{fullhash}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{fullhashraw}{208034b4fbd36d5bd6f17ff8c0b1afad}
       \strng{bibnamehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
       \strng{authorbibnamehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
       \strng{authornamehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
       \strng{authorfullhash}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{authorfullhashraw}{208034b4fbd36d5bd6f17ff8c0b1afad}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -118,7 +123,7 @@
       \endverb
       \keyw{bib}
     \endentry
-    \entry{dijkstra_letters_1968}{article}{}
+    \entry{dijkstra_letters_1968}{article}{}{}
       \name{author}{1}{}{%
         {{hash=e142555b26f584f4133d5434621d3ce4}{%
            family={Dijkstra},
@@ -131,10 +136,12 @@
       }
       \strng{namehash}{e142555b26f584f4133d5434621d3ce4}
       \strng{fullhash}{e142555b26f584f4133d5434621d3ce4}
+      \strng{fullhashraw}{e142555b26f584f4133d5434621d3ce4}
       \strng{bibnamehash}{e142555b26f584f4133d5434621d3ce4}
       \strng{authorbibnamehash}{e142555b26f584f4133d5434621d3ce4}
       \strng{authornamehash}{e142555b26f584f4133d5434621d3ce4}
       \strng{authorfullhash}{e142555b26f584f4133d5434621d3ce4}
+      \strng{authorfullhashraw}{e142555b26f584f4133d5434621d3ce4}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -157,7 +164,7 @@
       \endverb
       \keyw{bib}
     \endentry
-    \entry{parnas_criteria_1972}{article}{}
+    \entry{parnas_criteria_1972}{article}{}{}
       \name{author}{1}{}{%
         {{hash=2c85bcbe37e2c044c00248fb912f095d}{%
            family={Parnas},
@@ -170,10 +177,12 @@
       }
       \strng{namehash}{2c85bcbe37e2c044c00248fb912f095d}
       \strng{fullhash}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{fullhashraw}{2c85bcbe37e2c044c00248fb912f095d}
       \strng{bibnamehash}{2c85bcbe37e2c044c00248fb912f095d}
       \strng{authorbibnamehash}{2c85bcbe37e2c044c00248fb912f095d}
       \strng{authornamehash}{2c85bcbe37e2c044c00248fb912f095d}
       \strng{authorfullhash}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{authorfullhashraw}{2c85bcbe37e2c044c00248fb912f095d}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
@@ -200,7 +209,7 @@
       \endverb
       \keyw{bib}
     \endentry
-    \entry{r_c_martin_clean_2018}{book}{}
+    \entry{r_c_martin_clean_2018}{book}{}{}
       \name{author}{1}{}{%
         {{hash=6f41df64eb0dc4855be70172368604c2}{%
            family={Martin},
@@ -216,10 +225,12 @@
       }
       \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
       \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhashraw}{6f41df64eb0dc4855be70172368604c2}
       \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
       \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
       \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
       \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhashraw}{6f41df64eb0dc4855be70172368604c2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -236,7 +247,7 @@
       \endverb
       \keyw{bib}
     \endentry
-    \entry{mannaert_normalized_2016}{book}{}
+    \entry{mannaert_normalized_2016}{book}{}{}
       \name{author}{3}{}{%
         {{hash=df2303fefc11d0397925062fa9076d72}{%
            family={Mannaert},
@@ -265,10 +276,12 @@
       }
       \strng{namehash}{7e9f990fa73cb5d3b19d2ace2d4f24ac}
       \strng{fullhash}{5400e3e55928ffb135b3f68cb1c263ad}
+      \strng{fullhashraw}{5400e3e55928ffb135b3f68cb1c263ad}
       \strng{bibnamehash}{5400e3e55928ffb135b3f68cb1c263ad}
       \strng{authorbibnamehash}{5400e3e55928ffb135b3f68cb1c263ad}
       \strng{authornamehash}{7e9f990fa73cb5d3b19d2ace2d4f24ac}
       \strng{authorfullhash}{5400e3e55928ffb135b3f68cb1c263ad}
+      \strng{authorfullhashraw}{5400e3e55928ffb135b3f68cb1c263ad}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -282,7 +295,7 @@
       \endverb
       \keyw{bib}
     \endentry
-    \entry{meyer_object-oriented_1988}{book}{}
+    \entry{meyer_object-oriented_1988}{book}{}{}
       \name{author}{1}{}{%
         {{hash=7833218c9c8ce508ce4d4482308c9da5}{%
            family={Meyer},
@@ -298,10 +311,12 @@
       }
       \strng{namehash}{7833218c9c8ce508ce4d4482308c9da5}
       \strng{fullhash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{fullhashraw}{7833218c9c8ce508ce4d4482308c9da5}
       \strng{bibnamehash}{7833218c9c8ce508ce4d4482308c9da5}
       \strng{authorbibnamehash}{7833218c9c8ce508ce4d4482308c9da5}
       \strng{authornamehash}{7833218c9c8ce508ce4d4482308c9da5}
       \strng{authorfullhash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authorfullhashraw}{7833218c9c8ce508ce4d4482308c9da5}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -314,425 +329,6 @@
       \verb Meyer - Object-Oriented Software Construction.pdf:C\:\\Users\\gerco\\Zotero\\storage\\RBARZ7IA\\Meyer - Object-Oriented Software Construction.pdf:application/pdf
       \endverb
       \keyw{bib}
-    \endentry
-    \entry{koks_expanderpluginloaderinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{ExpanderPluginLoaderInteractor}}
-      \field{urlday}{1}
-      \field{urlmonth}{5}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Application/Interactors/Initializers/ExpanderPluginLoaderInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Application/Interactors/Initializers/ExpanderPluginLoaderInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_iexpanderhandlerinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GitHub}
-      \field{title}{{IExpanderHandlerInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/IExpanderHandlerInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/IExpanderHandlerInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_iexecutioninteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GitHub}
-      \field{title}{{IExecutionInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/IExecutionInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/IExecutionInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_expandentitieshandlerinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GitHub}
-      \field{title}{{ExpandEntitiesHandlerInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Expanders/src/PanthaRhei.Expanders.CleanArchitecture/Handlers/Domain/ExpandEntitiesHandlerInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Expanders/src/PanthaRhei.Expanders.CleanArchitecture/Handlers/Domain/ExpandEntitiesHandlerInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_regionharvesterinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GitHub}
-      \field{title}{{RegionHarvesterInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/Harvesters/RegionHarvesterInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/Harvesters/RegionHarvesterInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_regionrejuvenatorinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GitHub}
-      \field{title}{{RegionRejuvenatorInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/Rejuvenator/RegionRejuvenatorInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/Rejuvenator/RegionRejuvenatorInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_migrationharvesterinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{MigrationHarvesterInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Expanders/src/PanthaRhei.Expanders.CleanArchitecture/Harvesters/MigrationHarvesterInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Expanders/src/PanthaRhei.Expanders.CleanArchitecture/Harvesters/MigrationHarvesterInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_codegeneratorinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{9}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GitHub}
-      \field{title}{{CodeGeneratorInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Application/Interactors/Generators/CodeGeneratorInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Application/Interactors/Generators/CodeGeneratorInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_dependencyinjectionextension_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{10}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{DependencyInjectionExtension}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Application/DependencyInjectionExtension.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Application/DependencyInjectionExtension.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{wikipedia_service_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
-           family={Wikipedia},
-           familyi={W\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
-      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The service locator pattern is a design pattern used in software development to encapsulate the processes involved in obtaining a service with a strong abstraction layer. This pattern uses a central registry known as the "service locator", which on request returns the information necessary to perform a certain task. Proponents of the pattern say the approach simplifies component-based applications where all dependencies are cleanly listed at the beginning of the whole application design, consequently making traditional dependency injection a more complex way of connecting objects. Critics of the pattern argue that it is an anti-pattern which obscures dependencies and makes software harder to test.}
-      \field{journaltitle}{Wikipedia}
-      \field{title}{Service locator pattern}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/w/index.php?title=Service_locator_pattern&oldid=1152702717
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/w/index.php?title=Service_locator_pattern&oldid=1152702717
-      \endverb
-      \keyw{web}
-    \endentry
-    \entry{koks_idependencymanagerinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{11}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{IDependencyManagerInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Domain/Interactors/Dependencies/IDependencyManagerInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Domain/Interactors/Dependencies/IDependencyManagerInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_idependencyfactoryinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{12}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{IDependencyFactoryInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Domain/Interactors/Dependencies/IDependencyFactoryInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Domain/Interactors/Dependencies/IDependencyFactoryInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_dependencymanagerinteractor_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{13}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{DependencyManagerInteractor}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Domain/Interactors/Dependencies/DependencyManagerInteractor.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/master-thesis-artifact/Generator/src/PanthaRhei.Generator.Domain/Interactors/Dependencies/DependencyManagerInteractor.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
-    \entry{koks_abstractexpander_2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{14}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GitHub}
-      \field{title}{{AbstractExpander}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/Expanders/AbstractExpander.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/Expanders/AbstractExpander.cs
-      \endverb
-      \keyw{artifact}
     \endentry
   \enddatalist
 \endrefsection

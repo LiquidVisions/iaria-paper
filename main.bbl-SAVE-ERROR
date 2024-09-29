@@ -1,0 +1,336 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{koks_convergence_2023}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=ccafbbd4912ab04062eee0c4c4ee27ca}{%
+           family={Koks},
+           familyi={K\bibinitperiod},
+           given={Gerco},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{fullhash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{fullhashraw}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{bibnamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{authorbibnamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{authornamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{authorfullhash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{authorfullhashraw}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Design Science approach of stability, evolvability, and modularity on a C\# software artifact.}
+      \field{month}{6}
+      \field{title}{On the {Convergence} of {Clean} {Architecture} with the {Normalized} {Systems} {Theorems}}
+      \field{type}{phdthesis}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://zenodo.org/record/8029971
+      \endverb
+      \verb{url}
+      \verb https://zenodo.org/record/8029971
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{d_mcilroy_nato_1968}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0605015d9f67ffb872f9e8bd52914b9b}{%
+           family={{D. McIlroy}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{fullhash}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{fullhashraw}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{bibnamehash}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{authorbibnamehash}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{authornamehash}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{authorfullhash}{0605015d9f67ffb872f9e8bd52914b9b}
+      \strng{authorfullhashraw}{0605015d9f67ffb872f9e8bd52914b9b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{NATO} {Software} {Engineering} {Conference}}
+      \field{year}{1968}
+      \verb{file}
+      \verb McClure - 1968 - NATO SOFTWARE ENGINEERING CONFERENCE 1968.PDF:C\:\\Users\\gerco\\Zotero\\storage\\2FZLPW2I\\McClure - 1968 - NATO SOFTWARE ENGINEERING CONFERENCE 1968.PDF:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{lehman_programs_1980}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=208034b4fbd36d5bd6f17ff8c0b1afad}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={M.M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{fullhash}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{fullhashraw}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{bibnamehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{authorbibnamehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{authornamehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{authorfullhash}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \strng{authorfullhashraw}{208034b4fbd36d5bd6f17ff8c0b1afad}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9219}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{9}
+      \field{title}{Programs, life cycles, and laws of software evolution}
+      \field{volume}{68}
+      \field{year}{1980}
+      \field{pages}{1060\bibrangedash 1076}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/PROC.1980.11805
+      \endverb
+      \verb{file}
+      \verb Lehman - 1980 - Programs, life cycles, and laws of software evolut.pdf:C\:\\Users\\gerco\\Zotero\\storage\\KXYZEMV7\\Lehman - 1980 - Programs, life cycles, and laws of software evolut.pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{dijkstra_letters_1968}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e142555b26f584f4133d5434621d3ce4}{%
+           family={Dijkstra},
+           familyi={D\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e142555b26f584f4133d5434621d3ce4}
+      \strng{fullhash}{e142555b26f584f4133d5434621d3ce4}
+      \strng{fullhashraw}{e142555b26f584f4133d5434621d3ce4}
+      \strng{bibnamehash}{e142555b26f584f4133d5434621d3ce4}
+      \strng{authorbibnamehash}{e142555b26f584f4133d5434621d3ce4}
+      \strng{authornamehash}{e142555b26f584f4133d5434621d3ce4}
+      \strng{authorfullhash}{e142555b26f584f4133d5434621d3ce4}
+      \strng{authorfullhashraw}{e142555b26f584f4133d5434621d3ce4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0001-0782, 1557-7317}
+      \field{journaltitle}{Communications of the ACM}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shorttitle}{Letters to the editor}
+      \field{title}{Letters to the editor: go to statement considered harmful}
+      \field{volume}{11}
+      \field{year}{1968}
+      \field{pages}{147\bibrangedash 148}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1145/362929.362947
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\gerco\\Zotero\\storage\\Q5VIFHFF\\Dijkstra - 1968 - Letters to the editor go to statement considered .pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{parnas_criteria_1972}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2c85bcbe37e2c044c00248fb912f095d}{%
+           family={Parnas},
+           familyi={P\bibinitperiod},
+           given={DL.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{fullhash}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{fullhashraw}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{bibnamehash}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{authorbibnamehash}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{authornamehash}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{authorfullhash}{2c85bcbe37e2c044c00248fb912f095d}
+      \strng{authorfullhashraw}{2c85bcbe37e2c044c00248fb912f095d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper discusses modularization as a mechanism for improving the flexibility and comprehensibility of a system while allowing the shortening of its development time. The effectiveness of a “modularization” is dependent upon the criteria used in dividing the system into modules. A system design problem is presented and both a conventional and unconventional decomposition are described. It is shown that the unconventional decompositions have distinct advantages for the goals outlined. The criteria used in arriving at the decompositions are discussed. The unconventional decomposition, if implemented with the conventional assumption that a module consists of one or more subroutines, will be less efficient in most cases. An alternative approach to implementation which does not have this effect is sketched.}
+      \field{issn}{0001-0782, 1557-7317}
+      \field{journaltitle}{Communications of the ACM}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{On the criteria to be used in decomposing systems into modules}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{15}
+      \field{year}{1972}
+      \field{urldateera}{ce}
+      \field{pages}{1053\bibrangedash 1058}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/361598.361623
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\gerco\\Zotero\\storage\\E5KWMPEA\\Parnas - 1972 - On the criteria to be used in decomposing systems .pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{r_c_martin_clean_2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, England}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhashraw}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhashraw}{6f41df64eb0dc4855be70172368604c2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Building upon the success of best-sellers The Clean Coder and Clean Code, legendary software craftsman Robert C. "Uncle Bob" Martin shows how to bring greater professionalism and discipline to application architecture and design. As with his other books, Martin's Clean Architecture doesn't merely present multiple choices and options, and say "use your best judgment": it tells you what choices to make, and why those choices are critical to your success. Martin offers direct, no-nonsense answers to key architecture and design questions like: What are the best high level structures for different kinds of applications, including web, database, thick-client, console, and embedded apps? What are the core principles of software architecture? What is the role of the architect, and what is he/she really trying to achieve? What are the core principles of software design? How do designs and architectures go wrong, and what can you do about it? What are the disciplines and practices of professional architects and designers? Clean Architecture is essential reading for every software architect, systems analyst, system designer, and software manager -- and for any programmer who aspires to these roles or is impacted by their work}
+      \field{isbn}{978-0-13-449416-6}
+      \field{note}{OCLC: on1004983973}
+      \field{series}{Robert {C}. {Martin} series}
+      \field{shorttitle}{Clean architecture}
+      \field{title}{Clean architecture: a craftsman's guide to software structure and design}
+      \field{year}{2018}
+      \verb{file}
+      \verb Martin and Martin - 2018 - Clean architecture a craftsman's guide to softwar.pdf:C\:\\Users\\gerco\\Zotero\\storage\\AGIW5ZLH\\Martin and Martin - 2018 - Clean architecture a craftsman's guide to softwar.pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{mannaert_normalized_2016}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=df2303fefc11d0397925062fa9076d72}{%
+           family={Mannaert},
+           familyi={M\bibinitperiod},
+           given={Herwig},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8ce8eff48aa45bcef98dfc73ae8f234b}{%
+           family={Verelst},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=72b05863c51c0e2ac0a0f4ae07184635}{%
+           family={De\bibnamedelima Bruyn},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Kermt}%
+      }
+      \list{publisher}{1}{%
+        {nsi-Press powered bei Koppa}%
+      }
+      \strng{namehash}{7e9f990fa73cb5d3b19d2ace2d4f24ac}
+      \strng{fullhash}{5400e3e55928ffb135b3f68cb1c263ad}
+      \strng{fullhashraw}{5400e3e55928ffb135b3f68cb1c263ad}
+      \strng{bibnamehash}{5400e3e55928ffb135b3f68cb1c263ad}
+      \strng{authorbibnamehash}{5400e3e55928ffb135b3f68cb1c263ad}
+      \strng{authornamehash}{7e9f990fa73cb5d3b19d2ace2d4f24ac}
+      \strng{authorfullhash}{5400e3e55928ffb135b3f68cb1c263ad}
+      \strng{authorfullhashraw}{5400e3e55928ffb135b3f68cb1c263ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-90-77160-09-1}
+      \field{shorttitle}{Normalized systems theory}
+      \field{title}{Normalized systems theory: from foundations for evolvable software toward a general theory for evolvable design}
+      \field{year}{2016}
+      \verb{file}
+      \verb Mannaert et al. - 2016 - Normalized systems theory from foundations for ev.pdf:C\:\\Users\\gerco\\Zotero\\storage\\SKBV7YKY\\Mannaert et al. - 2016 - Normalized systems theory from foundations for ev.pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{meyer_object-oriented_1988}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=7833218c9c8ce508ce4d4482308c9da5}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, N.J}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall PTR}%
+      }
+      \strng{namehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{fullhash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{fullhashraw}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{bibnamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authorbibnamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authornamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authorfullhash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authorfullhashraw}{7833218c9c8ce508ce4d4482308c9da5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st ed}
+      \field{isbn}{978-0-13-629155-8}
+      \field{title}{Object-oriented software construction}
+      \field{year}{1988}
+      \verb{file}
+      \verb Meyer - Object-Oriented Software Construction.pdf:C\:\\Users\\gerco\\Zotero\\storage\\RBARZ7IA\\Meyer - Object-Oriented Software Construction.pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

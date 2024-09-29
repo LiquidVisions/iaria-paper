@@ -1,0 +1,31 @@
+\subsection{Unified concepts}
+In this Section, we will examine concepts related to both \gls{ca} and \gls{ns}.
+Understanding these concepts is crucial for executing the research and interpreting its
+results.
+
+
+\subsubsection{Modularity}
+The original material of \textcite[82]{r_c_martin_clean_2018} describes a module as a 
+piece of code encapsulated in a source file with a cohesive set of functions and data
+structures. According to \textcite[22]{mannaert_normalized_2016}, modularity is a 
+hierarchical or recursive concept that should exhibit high cohesion. While both design
+approaches agree on the cohesiveness of a module's internal parts, there is a slight 
+difference in granularity in their definitions.
+
+\subsubsection{Cohesion}
+\textcite[22]{mannaert_normalized_2016} consider cohesion as modules that exist out of
+connected or interrelated parts of a hierarchical structure. On the other hand,
+\textcite[118]{r_c_martin_clean_2018} discusses cohesion in the context of
+components. He attributes the three component cohesion principles as crucial to grouping
+classes or functions into cohesive components. Cohesion is a complex and dynamic process,
+as the level of cohesiveness might evolve as requirements change over time. 
+
+\subsubsection{Coupling}
+Coupling is an essential concept in software engineering that is related to the degree of
+interdependence among various software constructs. High coupling between components
+indicates the strength of their relationship, creating an interdependent relationship
+between them. Conversely, low coupling signifies a weaker relationship, where
+modifications in one part are less likely to impact others. Although not always possible,
+the level of coupling between the various modules of the system should be kept to a bare
+minimum. Both \textcite[23]{mannaert_normalized_2016} and
+\textcite[130]{r_c_martin_clean_2018} agree to achieve as much decoupling as possible.
