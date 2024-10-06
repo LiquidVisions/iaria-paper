@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  29 SEP 2024 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  5 OCT 2024 19:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -881,7 +881,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-<figures/Picture1.png, id=92, 375.804pt x 200.0565pt>
+<figures/Picture1.png, id=152, 375.804pt x 200.0565pt>
 File: figures/Picture1.png Graphic file (type png)
 <use figures/Picture1.png>
 Package pdftex.def Info: figures/Picture1.png  used on input line 85.
@@ -889,7 +889,7 @@ Package pdftex.def Info: figures/Picture1.png  used on input line 85.
 
 
 [2]
-<figures/Picture2.png, id=101, 382.374pt x 156.0375pt>
+<figures/Picture2.png, id=161, 382.374pt x 156.0375pt>
 File: figures/Picture2.png Graphic file (type png)
 <use figures/Picture2.png>
 Package pdftex.def Info: figures/Picture2.png  used on input line 120.
@@ -901,7 +901,7 @@ Package pdftex.def Info: figures/Picture2.png  used on input line 120.
 [3 <./figures/Picture1.png> <./figures/Picture2.png>]
 
 pdfTeX warning: pdflatex.exe (file ./figures/ca_diagram.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/ca_diagram.pdf, id=111, 254.24988pt x 248.82962pt>
+<figures/ca_diagram.pdf, id=172, 254.24988pt x 248.82962pt>
 File: figures/ca_diagram.pdf Graphic file (type pdf)
 <use figures/ca_diagram.pdf>
 Package pdftex.def Info: figures/ca_diagram.pdf  used on input line 47.
@@ -915,11 +915,178 @@ Package pdftex.def Info: figures/ca_diagram.pdf  used on input line 47.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 85.
 (c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)) (./content/chapter3/elements.tex
+)) (./content/chapter4/elements.tex
 
 [5{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]
 
-)
+) (./content/chapter5/expansion.tex
+
+[6]) (./content/chapter5/naming.tex
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\OT1/ptm/m/n/8 ViewModel-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]|\OT1/ptm/m/n/8 [\OT1/ptm/m/it/8 Noun\OT1/ptm/m/n/8 ]ViewModel-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\OT1/ptm/m/n/8 Request-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]|\OT1/ptm/m/n/8 [\OT1/ptm/m/it/8 Verb\OT1/ptm/m/n/8 ][\OT1/ptm/m/it/8 Noun\OT1/ptm/m/n/8 ]Request-
+ []
+
+
+Overfull \hbox (0.69595pt too wide) in paragraph at lines 61--61
+[]|\OT1/ptm/m/n/8 Infrastructure| 
+ []
+
+) (./content/chapter5/requirementComponent.tex
+
+
+
+[7]) (./content/chapter5/requirementSoftware.tex
+
+pdfTeX warning: pdflatex.exe (file ./figures/generic_design.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/generic_design.pdf, id=247, 668.4975pt x 749.29938pt>
+File: figures/generic_design.pdf Graphic file (type pdf)
+<use figures/generic_design.pdf>
+Package pdftex.def Info: figures/generic_design.pdf  used on input line 10.
+(pdftex.def)             Requested size: 516.0pt x 578.41434pt.
+
+
+) (./content/chapter5/generator.tex
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \vbox (badness 6675) has occurred while \output is active []
+
+
+
+[9 <./figures/generic_design.pdf>]) (./content/chapter5/generated.tex) (./content/chapter6/artifacts.tex
+
+pdfTeX warning: pdflatex.exe (file ./figures/artifactOverview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/artifactOverview.pdf, id=363, 529.37778pt x 417.76076pt>
+File: figures/artifactOverview.pdf Graphic file (type pdf)
+<use figures/artifactOverview.pdf>
+Package pdftex.def Info: figures/artifactOverview.pdf  used on input line 5.
+(pdftex.def)             Requested size: 317.6291pt x 250.65839pt.
+) (./content/chapter6/name.tex) (./content/chapter6/metamodel.tex
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/erd.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/erd.pdf, id=367, 684.2564pt x 516.2286pt>
+File: figures/erd.pdf Graphic file (type pdf)
+<use figures/erd.pdf>
+Package pdftex.def Info: figures/erd.pdf  used on input line 13.
+(pdftex.def)             Requested size: 410.557pt x 309.73955pt.
+) (./content/chapter6/plugin.tex
+
+pdfTeX warning: pdflatex.exe (file ./figures/plugin_architecture.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/plugin_architecture.pdf, id=369, 390.65952pt x 237.58762pt>
+File: figures/plugin_architecture.pdf Graphic file (type pdf)
+<use figures/plugin_architecture.pdf>
+Package pdftex.def Info: figures/plugin_architecture.pdf  used on input line 10.
+(pdftex.def)             Requested size: 258.0pt x 156.90619pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+) (./content/chapter6/expanders.tex
+
+pdfTeX warning: pdflatex.exe (file ./figures/expander.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/expander.pdf, id=372, 565.91423pt x 222.23024pt>
+File: figures/expander.pdf Graphic file (type pdf)
+<use figures/expander.pdf>
+Package pdftex.def Info: figures/expander.pdf  used on input line 20.
+(pdftex.def)             Requested size: 516.0pt x 202.64014pt.
+) (./content/chapter6/executer.tex
+
+pdfTeX warning: pdflatex.exe (file ./figures/command_pattern.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/command_pattern.pdf, id=377, 527.9725pt x 256.96pt>
+File: figures/command_pattern.pdf Graphic file (type pdf)
+<use figures/command_pattern.pdf>
+Package pdftex.def Info: figures/command_pattern.pdf  used on input line 15.
+(pdftex.def)             Requested size: 516.0pt x 251.1486pt.
+) (./content/chapter6/di.tex
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11 <./figures/artifactOverview.pdf> <./figures/erd.pdf>]
+
+LaTeX Warning: Reference `list_Injecting' on page 12 undefined on input line 35.
+
+
+LaTeX Warning: Reference `list_dip' on page 12 undefined on input line 37.
+
+
+
+) (./content/conclusion/conclusion.tex
+
+[12 <./figures/plugin_architecture.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[13 <./figures/expander.pdf> <./figures/command_pattern.pdf>]) (./content/bibliography.tex
+Underfull \hbox (badness 4582) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 G e n e r a t o r  . A p p l i c a t i o n  / I n t e r a c t o r s  / I n i t i a l i z e r s  /
+ []
+
+
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 P a n t h a R h e i  / b l o b  / 9687c 96e b 368d 96201d 4b a a 66b 1b 
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 E x p a n d e r s  . C l e a n A r c h i t e c t u r e  / H a n d l e r s  / D o m a i n  /
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 Avail-able: []$h t t p s  : / / g i t h u b  . c o m  / L i q u i d V i s i o n s  /
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 Avail-able: []$h t t p s  : / / g i t h u b  . c o m  / L i q u i d V i s i o n s  /
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 2--2
+\OT1/ptm/m/n/10 G e n e r a t o r  . A p p l i c a t i o n  / I n t e r a c t o r s  / G e n e r a t o r s  /
+ []
+
+
+
+[14])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -933,54 +1100,41 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[6] (./main.aux)
+
+
+[15
+
+] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3BBEBFFA1C0C6DEB5D66FAD04C3326B3;2287.
+(rerunfilecheck)             Checksum: 8F20515C9A17A8B79E2D4C06F0E45D52;4686.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26406 strings out of 473579
- 449394 string characters out of 5732263
- 1343878 words of memory out of 5000000
- 48881 multiletter control sequences out of 15000+600000
- 598133 words of font info for 111 fonts, out of 8000000 for 9000
+ 26764 strings out of 473579
+ 462972 string characters out of 5732263
+ 1395564 words of memory out of 5000000
+ 49141 multiletter control sequences out of 15000+600000
+ 601932 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,96p,2512b,1860s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,11n,96p,2512b,2054s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{cite.0@meyer_object-oriented_1988} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@mannaert_normalized_2016} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@r_c_martin_clean_2018} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@koks_convergence_2023} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@parnas_criteria_1972} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@dijkstra_letters_1968} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@lehman_programs_1980} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@d_mcilroy_nato_1968} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{cite.0@wikipedia_service_2023} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 559256 bytes).
+Output written on main.pdf (15 pages, 702504 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 681 PDF objects out of 1000 (max. 8388607)
+ 627 compressed objects within 7 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
