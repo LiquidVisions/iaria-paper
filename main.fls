@@ -549,11 +549,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ./content/conclusion/conclusion.tex
-INPUT ./content/conclusion/conclusion.tex
-INPUT ./content/conclusion/conclusion.tex
-INPUT ./content/conclusion/conclusion.tex
-INPUT content/conclusion/conclusion.tex
+INPUT ./content/chapter7/conclusion.tex
+INPUT ./content/chapter7/conclusion.tex
+INPUT ./content/chapter7/conclusion.tex
+INPUT ./content/chapter7/conclusion.tex
+INPUT content/chapter7/conclusion.tex
 INPUT ./content/bibliography.tex
 INPUT ./content/bibliography.tex
 INPUT ./content/bibliography.tex

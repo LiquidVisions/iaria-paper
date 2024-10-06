@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1727804847.19644 "main.bcf" "main.bbl" "main" 1728149483.23107 0
+["biber main"] 1727804847.19644 "main.bcf" "main.bbl" "main" 1728199205.14014 0
   "bibliography.bib" 1727544772 72453 ff6096336d84ad6eba7cddaac8b5871e ""
-  "main.bcf" 1728149482 113602 8befb100fc8c406be497f5c9abb8a0eb "pdflatex"
+  "main.bcf" 1728199204 113602 8befb100fc8c406be497f5c9abb8a0eb "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1728149478.87556 "c:/Dev/iaria-paper/main.tex" "main.pdf" "main" 1728149483.23182 0
+["pdflatex"] 1728199198.49793 "c:/Dev/iaria-paper/main.tex" "main.pdf" "main" 1728199205.14078 0
   "IEEEtran.cls" 1727544772 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Dev/iaria-paper/main.tex" 1728148905 1184 87f35cbcd9ad4237b9350dbc9b76bb82 ""
+  "c:/Dev/iaria-paper/main.tex" 1728199196 1195 78c538742a2553e80d4820e3244f92f3 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1727614118 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1727614721 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727614732 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -191,7 +191,7 @@
   "content/chapter6/metamodel.tex" 1728149069 772 aa8f93534985acd05a9074e5328397aa ""
   "content/chapter6/name.tex" 1727544772 0 d41d8cd98f00b204e9800998ecf8427e ""
   "content/chapter6/plugin.tex" 1728149477 1092 146c9d85bbe4ca59282e44d3d66aae21 ""
-  "content/conclusion/conclusion.tex" 1727544772 4659 a29d39d0ea5c279ac99a9f07de167217 ""
+  "content/chapter7/conclusion.tex" 1727544772 4659 a29d39d0ea5c279ac99a9f07de167217 ""
   "content/keywords.tex" 1727544772 126 fe3036d0aa5dc2fcfbeedadd2910d010 ""
   "content/title.tex" 1727544772 580 1238bb6181113b6ff0219a256228dcfe ""
   "figures/Picture1.png" 1727544772 240408 231bf112decb70d52c8481bb9d5c4cc4 ""
@@ -203,11 +203,11 @@
   "figures/expander.pdf" 1727544773 13280 0d866e3ece136dacae9e443d31b39afe ""
   "figures/generic_design.pdf" 1727544773 43780 fb37b0c03d5dbb5cb05a2e3af27944d7 ""
   "figures/plugin_architecture.pdf" 1727544773 11409 308ad278ab9dab8d5fad8f40918ebca2 ""
-  "main.aux" 1728149482 19889 ac4b42b1b991d20ad8a30f00afeeb446 "pdflatex"
+  "main.aux" 1728199204 19889 ac4b42b1b991d20ad8a30f00afeeb446 "pdflatex"
   "main.bbl" 1727804850 38845 aecfe83fa4c5847c0162a3e09c29cd2a "biber main"
-  "main.out" 1728149482 4686 8f20515c9a17a8b79e2d4c06f0e45d52 "pdflatex"
-  "main.run.xml" 1728149482 2404 e448bd39f241edac993cdd8a8bf2c7e0 "pdflatex"
-  "main.tex" 1728148905 1184 87f35cbcd9ad4237b9350dbc9b76bb82 ""
+  "main.out" 1728199204 4686 8f20515c9a17a8b79e2d4c06f0e45d52 "pdflatex"
+  "main.run.xml" 1728199204 2404 e448bd39f241edac993cdd8a8bf2c7e0 "pdflatex"
+  "main.tex" 1728199196 1195 78c538742a2553e80d4820e3244f92f3 ""
   (generated)
   "main.aux"
   "main.bcf"
