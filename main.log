@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  6 OCT 2024 09:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  6 OCT 2024 10:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -866,14 +866,15 @@ Package hyperref Info: Link coloring OFF on input line 6.
 
  (./content/title.tex) (./content/abstract.tex) (./content/keywords.tex) (./content/chapter1/introduction.tex
 
-) (./content/chapter2/theory.tex) (./content/chapter2/fundamental_concepts.tex) (./content/chapter2/fundamentals_ns.tex
+) (./content/chapter2/theory.tex) (./content/chapter2/fundamental_concepts.tex
 
 [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]
+]) (./content/chapter2/fundamentals_ns.tex
+
 LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
@@ -881,22 +882,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-<figures/Picture1.png, id=152, 375.804pt x 200.0565pt>
+[2]
+<figures/Picture1.png, id=157, 375.804pt x 200.0565pt>
 File: figures/Picture1.png Graphic file (type png)
 <use figures/Picture1.png>
 Package pdftex.def Info: figures/Picture1.png  used on input line 85.
 (pdftex.def)             Requested size: 263.061pt x 140.03859pt.
-
-
-[2]
-<figures/Picture2.png, id=161, 382.374pt x 156.0375pt>
+<figures/Picture2.png, id=160, 382.374pt x 156.0375pt>
 File: figures/Picture2.png Graphic file (type png)
 <use figures/Picture2.png>
 Package pdftex.def Info: figures/Picture2.png  used on input line 120.
 (pdftex.def)             Requested size: 248.54015pt x 101.42316pt.
+
+
 ) (./content/chapter2/fundamentals_ca.tex
-
-
 
 [3 <./figures/Picture1.png> <./figures/Picture2.png>]
 
@@ -909,9 +908,6 @@ Package pdftex.def Info: figures/ca_diagram.pdf  used on input line 47.
 
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [4 <./figures/ca_diagram.pdf>]) (./content/chapter3/principles.tex
 
@@ -919,16 +915,13 @@ LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inpu
 (c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [5]) (./content/chapter4/elements.tex
 
 ) (./content/chapter5/expansion.tex
 
 [6{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]) (./content/chapter5/naming.tex
-Underfull \vbox (badness 2951) has occurred while \output is active []
+Underfull \vbox (badness 1297) has occurred while \output is active []
 
 
 
@@ -1139,7 +1132,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{cite.0@wikipedia_service_2023} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 702376 bytes).
+Output written on main.pdf (15 pages, 702715 bytes).
 PDF statistics:
  684 PDF objects out of 1000 (max. 8388607)
  630 compressed objects within 7 object streams
