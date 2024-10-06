@@ -348,8 +348,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{ExpanderPluginLoaderInteractor}}
@@ -383,8 +383,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
@@ -606,8 +606,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{10}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{DependencyInjectionExtension}}
