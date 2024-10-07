@@ -30,12 +30,6 @@ concern. The dependency on this technology is reduced by applying the principles
 dependencies are abstracted behind implementing those interfaces
 \parencite{koks_dependencymanagerinteractor_2023}. 
 
-Practically every class gets the \citecode{koks_idependencyfactoryinteractor_2023}
-injected, on which further resolving is responsible for that class's inner workings. Code
-Listing \ref{list_Injecting} illustrates how this is done in the
-\citecode{koks_abstractexpander_2023} class. Finally, all the dependencies are
-bootstrapped on application bootup, depicted in Code Listing \ref{list_dip}. 
-
 The approach described here has many advantages in managing the stability and evolvability
 of the software artifact. However, as for most things, there are also some drawbacks. For
 example, a good amount of experience is required for developers to understand code that

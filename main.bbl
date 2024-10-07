@@ -746,38 +746,6 @@
       \endverb
       \keyw{artifact}
     \endentry
-    \entry{koks_abstractexpander_2023}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=4beb2cb41e7559f5ca2125bc8f4b778b}{%
-           family={Koks},
-           familyi={K\bibinitperiod},
-           given={GC},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{fullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{bibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorbibnamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{14}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{GitHub}
-      \field{title}{{AbstractExpander}}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/Expanders/AbstractExpander.cs
-      \endverb
-      \verb{url}
-      \verb https://github.com/LiquidVisions/LiquidVisions.PanthaRhei/blob/9687c96eb368d96201d4baa66b1b0536cb90c12c/Generator/src/PanthaRhei.Generator.Domain/Interactors/Generators/Expanders/AbstractExpander.cs
-      \endverb
-      \keyw{artifact}
-    \endentry
   \enddatalist
 \endrefsection
 \endinput
