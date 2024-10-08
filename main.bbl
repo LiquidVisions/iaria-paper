@@ -447,8 +447,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
@@ -479,8 +479,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
@@ -511,8 +511,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
@@ -543,8 +543,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{MigrationHarvesterInteractor}}
@@ -574,8 +574,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{9}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
@@ -701,8 +701,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{12}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{IDependencyFactoryInteractor}}
@@ -732,8 +732,8 @@
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \field{extraname}{13}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{DependencyManagerInteractor}}

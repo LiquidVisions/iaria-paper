@@ -51,7 +51,7 @@ separation of concerns.
 
 An essential aspect is described as the dependency rule. The rule states that
 \textit{source code dependencies must point only inward toward higher-level policies}
-(Robert C. Martin, 2018, p. 206). This ’flow of control’ is designed following the
+\textcite[206]{r_c_martin_clean_2018}. This ’flow of control’ is designed following the
 \gls{dip} and can be represented schematically as concentric circles containing all the
 described components. The arrows in Figure \ref{fig_modulair_components} clearly show that
 the dependencies flow from the outer layers to the inner layers. Most outer layers are
@@ -92,12 +92,12 @@ The following list will provide an overview of each of the SOLID principles.
     \parencite[94]{r_c_martin_clean_2018}.
     \item \glslong{lsp}: The \gls{lsp} is named after Barbara Liskov, who first introduced
     the principle in a paper she co-authored in 1987. Barbara Liskov wrote the following
-    statement to define subtypes (Robert C. Martin, 2018, p. 95). \textit{If for each
+    statement to define subtypes \textcite[92]{r_c_martin_clean_2018}. \textit{If for each
     object o1 of type S, there is an object o2 of type T such that for all programs P
     defined in terms of T, the behavior of P is unchanged when o1 is substituted for o2
     then S is a subtype of T.1.} Or in simpler terms: To build software from
     interchangeable parts, those parts must adhere to a contract that allows those parts
-    to be substituted for another (Robert C. Martin, 2018, p. 80)
+    to be substituted for another \textcite[80]{r_c_martin_clean_2018}
     \item \glslong{isp}: The \gls{isp} suggests that software components should have
     narrow, specific interfaces rather than broad, general-purpose ones. In addition, the
     \gls{isp} states that consumer code should not be allowed to depend on methods it does
