@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  8 OCT 2024 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  18 OCT 2024 02:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1129,7 +1129,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{cite.0@wikipedia_service_2023} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 701425 bytes).
+Output written on main.pdf (15 pages, 701294 bytes).
 PDF statistics:
  680 PDF objects out of 1000 (max. 8388607)
  626 compressed objects within 7 object streams
