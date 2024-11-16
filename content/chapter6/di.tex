@@ -10,7 +10,7 @@ evolvability, the Dependency Injection pattern \underline{must} be combined with
 other principles of both \gls{ca} and \gls{ns}. 
 
 The goal is to centralize the management of dependencies and remove unwanted manual object
-instantiations in the code. Al this while respecting the \gls{dip} principle so that each
+instantiations in the code; al this while respecting the \gls{dip} principle so that each
 component layer is responsible for managing its dependencies. The artifact achieves this
 by using extension methods \parencite{koks_dependencyinjectionextension_2023}. Additionally, and quite significantly,
 implementations primarily rely on abstractions or contracts (interfaces) instead of the
@@ -20,7 +20,7 @@ Traditionally, Dependency Injection injects instantiations through constructor p
 or class properties. Although there are benefits in this approach, doing so will
 eventually lead to combinatorial effects, breaking the stability of a software artifact.
 In order to solve this problem, the artifact used the Service Locator pattern, a central
-registry responsible for resolving dependencies \parencite{wikipedia_service_2023}. Many
+registry responsible for resolving dependencies \parencite{wikipedia_service_2023}. Many 
 frameworks are available from \gls{nuget}, but the artifact uses the Service Registry,
 which is part of the .NET framework. This service registry is considered a cross-cutting
 concern. The dependency on this technology is reduced by applying the principles of the

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  18 OCT 2024 02:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  16 NOV 2024 17:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -962,7 +962,7 @@ Overfull \hbox (0.69595pt too wide) in paragraph at lines 61--61
 [7]) (./content/chapter5/requirementSoftware.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/generic_design.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/generic_design.pdf, id=253, 668.4975pt x 749.29938pt>
+<figures/generic_design.pdf, id=254, 668.4975pt x 749.29938pt>
 File: figures/generic_design.pdf Graphic file (type pdf)
 <use figures/generic_design.pdf>
 Package pdftex.def Info: figures/generic_design.pdf  used on input line 10.
@@ -984,7 +984,7 @@ Underfull \vbox (badness 6675) has occurred while \output is active []
 [9 <./figures/generic_design.pdf>]) (./content/chapter5/generated.tex) (./content/chapter6/artifacts.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/artifactOverview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/artifactOverview.pdf, id=369, 529.37778pt x 417.76076pt>
+<figures/artifactOverview.pdf, id=370, 529.37778pt x 417.76076pt>
 File: figures/artifactOverview.pdf Graphic file (type pdf)
 <use figures/artifactOverview.pdf>
 Package pdftex.def Info: figures/artifactOverview.pdf  used on input line 5.
@@ -994,7 +994,7 @@ Package pdftex.def Info: figures/artifactOverview.pdf  used on input line 5.
 ) (./content/chapter6/name.tex) (./content/chapter6/metamodel.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/erd.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/erd.pdf, id=374, 684.2564pt x 516.2286pt>
+<figures/erd.pdf, id=375, 684.2564pt x 516.2286pt>
 File: figures/erd.pdf Graphic file (type pdf)
 <use figures/erd.pdf>
 Package pdftex.def Info: figures/erd.pdf  used on input line 13.
@@ -1002,7 +1002,7 @@ Package pdftex.def Info: figures/erd.pdf  used on input line 13.
 ) (./content/chapter6/plugin.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/plugin_architecture.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/plugin_architecture.pdf, id=376, 390.65952pt x 237.58762pt>
+<figures/plugin_architecture.pdf, id=377, 390.65952pt x 237.58762pt>
 File: figures/plugin_architecture.pdf Graphic file (type pdf)
 <use figures/plugin_architecture.pdf>
 Package pdftex.def Info: figures/plugin_architecture.pdf  used on input line 10.
@@ -1022,7 +1022,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/expander.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/expander.pdf, id=388, 565.91423pt x 222.23024pt>
+<figures/expander.pdf, id=389, 565.91423pt x 222.23024pt>
 File: figures/expander.pdf Graphic file (type pdf)
 <use figures/expander.pdf>
 Package pdftex.def Info: figures/expander.pdf  used on input line 20.
@@ -1035,7 +1035,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [11 <./figures/artifactOverview.pdf> <./figures/erd.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figures/command_pattern.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/command_pattern.pdf, id=463, 527.9725pt x 256.96pt>
+<figures/command_pattern.pdf, id=464, 527.9725pt x 256.96pt>
 File: figures/command_pattern.pdf Graphic file (type pdf)
 <use figures/command_pattern.pdf>
 Package pdftex.def Info: figures/command_pattern.pdf  used on input line 15.
@@ -1118,21 +1118,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26751 strings out of 473579
- 462451 string characters out of 5732263
- 1385477 words of memory out of 5000000
- 49130 multiletter control sequences out of 15000+600000
+ 26755 strings out of 473579
+ 462667 string characters out of 5732263
+ 1383553 words of memory out of 5000000
+ 49134 multiletter control sequences out of 15000+600000
  601932 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,96p,2512b,2054s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{cite.0@wikipedia_service_2023} has been referenced but does not exist, replaced by a fixed one
-
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 701294 bytes).
+Output written on main.pdf (15 pages, 702359 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 626 compressed objects within 7 object streams
+ 683 PDF objects out of 1000 (max. 8388607)
+ 629 compressed objects within 7 object streams
  82 named destinations out of 1000 (max. 500000)
  286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
