@@ -19,16 +19,13 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{koks_convergence_2023}{thesis}{}{}
+    \entry{koks_converging_patterns_2024}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=ccafbbd4912ab04062eee0c4c4ee27ca}{%
            family={Koks},
            familyi={K\bibinitperiod},
            given={Gerco},
            giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
       \strng{fullhash}{ccafbbd4912ab04062eee0c4c4ee27ca}
@@ -43,20 +40,24 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{A Design Science approach of stability, evolvability, and modularity on a C\# software artifact.}
-      \field{month}{6}
-      \field{title}{On the {Convergence} of {Clean} {Architecture} with the {Normalized} {Systems} {Theorems}}
-      \field{type}{phdthesis}
-      \field{urlday}{24}
-      \field{urlmonth}{3}
+      \field{day}{14}
+      \field{eventtitle}{{PATTERNS} 2024, The Sixteenth International Conference on Pervasive Patterns and Applications}
+      \field{isbn}{978-1-68558-161-9}
+      \field{month}{4}
+      \field{title}{Converging Clean Architecture with Normalized Systems}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
       \field{urlyear}{2024}
-      \field{year}{2023}
+      \field{year}{2024}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
+      \field{pages}{19\bibrangedash 24}
+      \range{pages}{6}
       \verb{urlraw}
-      \verb https://zenodo.org/record/8029971
+      \verb https://www.thinkmind.org/library/PATTERNS/PATTERNS_2024/patterns_2024_1_40_78004.html
       \endverb
       \verb{url}
-      \verb https://zenodo.org/record/8029971
+      \verb https://www.thinkmind.org/library/PATTERNS/PATTERNS_2024/patterns_2024_1_40_78004.html
       \endverb
       \keyw{bib}
     \endentry
@@ -77,8 +78,8 @@
       \strng{authornamehash}{0605015d9f67ffb872f9e8bd52914b9b}
       \strng{authorfullhash}{0605015d9f67ffb872f9e8bd52914b9b}
       \strng{authorfullhashraw}{0605015d9f67ffb872f9e8bd52914b9b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{NATO} {Software} {Engineering} {Conference}}
@@ -104,8 +105,8 @@
       \strng{authornamehash}{208034b4fbd36d5bd6f17ff8c0b1afad}
       \strng{authorfullhash}{208034b4fbd36d5bd6f17ff8c0b1afad}
       \strng{authorfullhashraw}{208034b4fbd36d5bd6f17ff8c0b1afad}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9219}
@@ -143,8 +144,8 @@
       \strng{authornamehash}{e142555b26f584f4133d5434621d3ce4}
       \strng{authorfullhash}{e142555b26f584f4133d5434621d3ce4}
       \strng{authorfullhashraw}{e142555b26f584f4133d5434621d3ce4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0001-0782, 1557-7317}
@@ -184,8 +185,8 @@
       \strng{authornamehash}{2c85bcbe37e2c044c00248fb912f095d}
       \strng{authorfullhash}{2c85bcbe37e2c044c00248fb912f095d}
       \strng{authorfullhashraw}{2c85bcbe37e2c044c00248fb912f095d}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper discusses modularization as a mechanism for improving the flexibility and comprehensibility of a system while allowing the shortening of its development time. The effectiveness of a “modularization” is dependent upon the criteria used in dividing the system into modules. A system design problem is presented and both a conventional and unconventional decomposition are described. It is shown that the unconventional decompositions have distinct advantages for the goals outlined. The criteria used in arriving at the decompositions are discussed. The unconventional decomposition, if implemented with the conventional assumption that a module consists of one or more subroutines, will be less efficient in most cases. An alternative approach to implementation which does not have this effect is sketched.}
@@ -207,6 +208,47 @@
       \endverb
       \verb{file}
       \verb Full Text:C\:\\Users\\gerco\\Zotero\\storage\\E5KWMPEA\\Parnas - 1972 - On the criteria to be used in decomposing systems .pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{koks_convergence_2023}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=ccafbbd4912ab04062eee0c4c4ee27ca}{%
+           family={Koks},
+           familyi={K\bibinitperiod},
+           given={Gerco},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{fullhash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{fullhashraw}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{bibnamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{authorbibnamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{authornamehash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{authorfullhash}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \strng{authorfullhashraw}{ccafbbd4912ab04062eee0c4c4ee27ca}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Design Science approach of stability, evolvability, and modularity on a C\# software artifact.}
+      \field{month}{6}
+      \field{title}{On the {Convergence} of {Clean} {Architecture} with the {Normalized} {Systems} {Theorems}}
+      \field{type}{phdthesis}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://zenodo.org/record/8029971
+      \endverb
+      \verb{url}
+      \verb https://zenodo.org/record/8029971
       \endverb
       \keyw{bib}
     \endentry
@@ -283,6 +325,7 @@
       \strng{authornamehash}{7e9f990fa73cb5d3b19d2ace2d4f24ac}
       \strng{authorfullhash}{5400e3e55928ffb135b3f68cb1c263ad}
       \strng{authorfullhashraw}{5400e3e55928ffb135b3f68cb1c263ad}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -293,6 +336,104 @@
       \field{year}{2016}
       \verb{file}
       \verb Mannaert et al. - 2016 - Normalized systems theory from foundations for ev.pdf:C\:\\Users\\gerco\\Zotero\\storage\\SKBV7YKY\\Mannaert et al. - 2016 - Normalized systems theory from foundations for ev.pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{mannaert_towards_2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=df2303fefc11d0397925062fa9076d72}{%
+           family={Mannaert},
+           familyi={M\bibinitperiod},
+           given={Herwig},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8ce8eff48aa45bcef98dfc73ae8f234b}{%
+           family={Verelst},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4c47e732af153ecd60eb8a43647bc9f6}{%
+           family={Ven},
+           familyi={V\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7e9f990fa73cb5d3b19d2ace2d4f24ac}
+      \strng{fullhash}{6f2e178a9756907ec836df55752587f3}
+      \strng{fullhashraw}{6f2e178a9756907ec836df55752587f3}
+      \strng{bibnamehash}{6f2e178a9756907ec836df55752587f3}
+      \strng{authorbibnamehash}{6f2e178a9756907ec836df55752587f3}
+      \strng{authornamehash}{7e9f990fa73cb5d3b19d2ace2d4f24ac}
+      \strng{authorfullhash}{6f2e178a9756907ec836df55752587f3}
+      \strng{authorfullhashraw}{6f2e178a9756907ec836df55752587f3}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00380644}
+      \field{journaltitle}{Software: Practice and Experience}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Towards evolvable software architectures based on systems theoretic stability}
+      \field{volume}{42}
+      \field{year}{2012}
+      \field{pages}{89\bibrangedash 116}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1002/spe.1051
+      \endverb
+      \verb{file}
+      \verb Mannaert et al. - 2012 - Towards evolvable software architectures based on .pdf:C\:\\Users\\gerco\\Zotero\\storage\\UI6ZJAMK\\Mannaert et al. - 2012 - Towards evolvable software architectures based on .pdf:application/pdf
+      \endverb
+      \keyw{bib}
+    \endentry
+    \entry{kandaswamy_systematic_2024}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=12cda8c2c12ce31683af667135f25f7d}{%
+           family={Kandaswamy},
+           familyi={K\bibinitperiod},
+           given={Chetak},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8ce8eff48aa45bcef98dfc73ae8f234b}{%
+           family={Verelst},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4335d50c43cbb9822f6a29770de7fe59}
+      \strng{fullhash}{4335d50c43cbb9822f6a29770de7fe59}
+      \strng{fullhashraw}{4335d50c43cbb9822f6a29770de7fe59}
+      \strng{bibnamehash}{4335d50c43cbb9822f6a29770de7fe59}
+      \strng{authorbibnamehash}{4335d50c43cbb9822f6a29770de7fe59}
+      \strng{authornamehash}{4335d50c43cbb9822f6a29770de7fe59}
+      \strng{authorfullhash}{4335d50c43cbb9822f6a29770de7fe59}
+      \strng{authorfullhashraw}{4335d50c43cbb9822f6a29770de7fe59}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{14}
+      \field{eventtitle}{{PATTERNS} 2024, The Sixteenth International Conference on Pervasive Patterns and Applications}
+      \field{isbn}{978-1-68558-161-9}
+      \field{month}{4}
+      \field{shorttitle}{Systematic Rejuvenation of a Budgeting Application over 10 years}
+      \field{title}{Systematic Rejuvenation of a Budgeting Application over 10 years: A Case Study}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://www.thinkmind.org/library/PATTERNS/PATTERNS_2024/patterns_2024_1_10_78001.html
+      \endverb
+      \verb{url}
+      \verb https://www.thinkmind.org/library/PATTERNS/PATTERNS_2024/patterns_2024_1_10_78001.html
       \endverb
       \keyw{bib}
     \endentry
@@ -318,8 +459,8 @@
       \strng{authornamehash}{7833218c9c8ce508ce4d4482308c9da5}
       \strng{authorfullhash}{7833218c9c8ce508ce4d4482308c9da5}
       \strng{authorfullhashraw}{7833218c9c8ce508ce4d4482308c9da5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1st ed}
@@ -347,7 +488,7 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -382,7 +523,7 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -414,7 +555,7 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -446,9 +587,9 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extraname}{6}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
@@ -478,9 +619,9 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extraname}{7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
@@ -510,9 +651,9 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extraname}{8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
@@ -542,7 +683,7 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{8}
+      \field{extraname}{9}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -573,7 +714,7 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{9}
+      \field{extraname}{10}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -605,7 +746,7 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{10}
+      \field{extraname}{11}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -669,7 +810,7 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{11}
+      \field{extraname}{12}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -700,9 +841,9 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{12}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extraname}{13}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{IDependencyFactoryInteractor}}
@@ -731,9 +872,9 @@
       \strng{authornamehash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhash}{4beb2cb41e7559f5ca2125bc8f4b778b}
       \strng{authorfullhashraw}{4beb2cb41e7559f5ca2125bc8f4b778b}
-      \field{extraname}{13}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extraname}{14}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{DependencyManagerInteractor}}

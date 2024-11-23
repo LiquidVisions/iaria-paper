@@ -2,8 +2,19 @@
 
 Figure \ref{fig_design} illustrates the generic software architecture of the artifacts.
 Each instantiated element adheres to the Element Naming Convention outlined in Section
-\ref{naming_convention}. The following sections detail the requirements
-specific to each element.
+\ref{naming_convention}. 
+
+In order to visualize the designs of the artifact, the standard UML notation is used. The
+designs containing relationships adhere to the definitions depicted in Figure \ref{fi:class_diagram_relationship_notation}.
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=0.4\textwidth]{figures/legenda.pdf}
+  \caption[UML Notation used]{UML notation}
+  \label{fi:class_diagram_relationship_notation}
+\end{figure}
+
+The following sections detail the requirements specific to each element.
 
 \begin{figure*}[ht!]
     \centering
@@ -63,8 +74,8 @@ behavior throughout the system.
 
 The Gateway establishes the contract for interaction with infrastructure technologies such
 as databases or filesystems. Each Gateway follows a specific naming convention, with
-interfaces like ICreateGateway, IGetGateway, IGetByIdGateway, IUpdateGateway, and
-IDeleteGateway representing different CRUD operations. Gateway implementations are derived
+interfaces like ICreateGateway, IGetGateway, IGetByIdGateway, IUpdateGateway and
+IDeleteGateway, representing different CRUD operations. Gateway implementations are derived
 from these interfaces and are responsible for task-specific interactions with
 infrastructure components. These implementations have internal scope and cannot be
 instantiated outside their respective layers.

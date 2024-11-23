@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  16 NOV 2024 17:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  23 NOV 2024 20:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -866,33 +866,33 @@ Package hyperref Info: Link coloring OFF on input line 6.
 
  (./content/title.tex) (./content/abstract.tex) (./content/keywords.tex) (./content/chapter1/introduction.tex)
 
-(./content/chapter2/theory.tex) (./content/chapter2/fundamental_concepts.tex) (./content/chapter2/fundamentals_ns.tex
+(./content/chapter2/theory.tex) (./content/chapter2/fundamental_concepts.tex
 
 [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+]) (./content/chapter2/fundamentals_ns.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-<figures/Picture1.png, id=152, 375.804pt x 200.0565pt>
+<figures/Picture1.png, id=158, 375.804pt x 200.0565pt>
 File: figures/Picture1.png Graphic file (type png)
 <use figures/Picture1.png>
-Package pdftex.def Info: figures/Picture1.png  used on input line 85.
+Package pdftex.def Info: figures/Picture1.png  used on input line 89.
 (pdftex.def)             Requested size: 263.061pt x 140.03859pt.
 
 
 [2]
-<figures/Picture2.png, id=161, 382.374pt x 156.0375pt>
+<figures/Picture2.png, id=169, 382.374pt x 156.0375pt>
 File: figures/Picture2.png Graphic file (type png)
 <use figures/Picture2.png>
-Package pdftex.def Info: figures/Picture2.png  used on input line 120.
+Package pdftex.def Info: figures/Picture2.png  used on input line 125.
 (pdftex.def)             Requested size: 248.54015pt x 101.42316pt.
 ) (./content/chapter2/fundamentals_ca.tex
 
@@ -901,7 +901,7 @@ Package pdftex.def Info: figures/Picture2.png  used on input line 120.
 [3 <./figures/Picture1.png> <./figures/Picture2.png>]
 
 pdfTeX warning: pdflatex.exe (file ./figures/ca_diagram.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/ca_diagram.pdf, id=172, 254.24988pt x 248.82962pt>
+<figures/ca_diagram.pdf, id=181, 254.24988pt x 248.82962pt>
 File: figures/ca_diagram.pdf Graphic file (type pdf)
 <use figures/ca_diagram.pdf>
 Package pdftex.def Info: figures/ca_diagram.pdf  used on input line 47.
@@ -909,7 +909,7 @@ Package pdftex.def Info: figures/ca_diagram.pdf  used on input line 47.
 
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4543) has occurred while \output is active []
 
 
 
@@ -961,40 +961,48 @@ Overfull \hbox (0.69595pt too wide) in paragraph at lines 61--61
 
 [7]) (./content/chapter5/requirementSoftware.tex
 
+pdfTeX warning: pdflatex.exe (file ./figures/legenda.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/legenda.pdf, id=263, 298.11375pt x 265.99374pt>
+File: figures/legenda.pdf Graphic file (type pdf)
+<use figures/legenda.pdf>
+Package pdftex.def Info: figures/legenda.pdf  used on input line 12.
+(pdftex.def)             Requested size: 206.39685pt x 184.16092pt.
+
+
 pdfTeX warning: pdflatex.exe (file ./figures/generic_design.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/generic_design.pdf, id=254, 668.4975pt x 749.29938pt>
+<figures/generic_design.pdf, id=264, 668.4975pt x 749.29938pt>
 File: figures/generic_design.pdf Graphic file (type pdf)
 <use figures/generic_design.pdf>
-Package pdftex.def Info: figures/generic_design.pdf  used on input line 10.
+Package pdftex.def Info: figures/generic_design.pdf  used on input line 21.
 (pdftex.def)             Requested size: 516.0pt x 578.41434pt.
 
 
 
 
-[8]
+[8 <./figures/legenda.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-) (./content/chapter5/generator.tex
-Underfull \vbox (badness 6675) has occurred while \output is active []
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[9 <./figures/generic_design.pdf>]) (./content/chapter5/generated.tex) (./content/chapter6/artifacts.tex
+[9 <./figures/generic_design.pdf>]) (./content/chapter5/generator.tex) (./content/chapter5/generated.tex
+
+) (./content/chapter6/artifacts.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/artifactOverview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/artifactOverview.pdf, id=370, 529.37778pt x 417.76076pt>
+<figures/artifactOverview.pdf, id=408, 529.37778pt x 417.76076pt>
 File: figures/artifactOverview.pdf Graphic file (type pdf)
 <use figures/artifactOverview.pdf>
 Package pdftex.def Info: figures/artifactOverview.pdf  used on input line 5.
 (pdftex.def)             Requested size: 317.6291pt x 250.65839pt.
-
-
 ) (./content/chapter6/name.tex) (./content/chapter6/metamodel.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/erd.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/erd.pdf, id=375, 684.2564pt x 516.2286pt>
+<figures/erd.pdf, id=413, 684.2564pt x 516.2286pt>
 File: figures/erd.pdf Graphic file (type pdf)
 <use figures/erd.pdf>
 Package pdftex.def Info: figures/erd.pdf  used on input line 13.
@@ -1002,7 +1010,7 @@ Package pdftex.def Info: figures/erd.pdf  used on input line 13.
 ) (./content/chapter6/plugin.tex
 
 pdfTeX warning: pdflatex.exe (file ./figures/plugin_architecture.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/plugin_architecture.pdf, id=377, 390.65952pt x 237.58762pt>
+<figures/plugin_architecture.pdf, id=415, 390.65952pt x 237.58762pt>
 File: figures/plugin_architecture.pdf Graphic file (type pdf)
 <use figures/plugin_architecture.pdf>
 Package pdftex.def Info: figures/plugin_architecture.pdf  used on input line 10.
@@ -1020,22 +1028,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-
-pdfTeX warning: pdflatex.exe (file ./figures/expander.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/expander.pdf, id=389, 565.91423pt x 222.23024pt>
-File: figures/expander.pdf Graphic file (type pdf)
-<use figures/expander.pdf>
-Package pdftex.def Info: figures/expander.pdf  used on input line 20.
-(pdftex.def)             Requested size: 516.0pt x 202.64014pt.
-) (./content/chapter6/executer.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [11 <./figures/artifactOverview.pdf> <./figures/erd.pdf>]
 
+pdfTeX warning: pdflatex.exe (file ./figures/expander.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/expander.pdf, id=495, 565.91423pt x 222.23024pt>
+File: figures/expander.pdf Graphic file (type pdf)
+<use figures/expander.pdf>
+Package pdftex.def Info: figures/expander.pdf  used on input line 20.
+(pdftex.def)             Requested size: 516.0pt x 202.64014pt.
+) (./content/chapter6/executer.tex
+
 pdfTeX warning: pdflatex.exe (file ./figures/command_pattern.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/command_pattern.pdf, id=464, 527.9725pt x 256.96pt>
+<figures/command_pattern.pdf, id=500, 527.9725pt x 256.96pt>
 File: figures/command_pattern.pdf Graphic file (type pdf)
 <use figures/command_pattern.pdf>
 Package pdftex.def Info: figures/command_pattern.pdf  used on input line 15.
@@ -1062,6 +1070,8 @@ Underfull \hbox (badness 4582) in paragraph at lines 2--2
  []
 
 
+
+[14]
 Underfull \hbox (badness 2005) in paragraph at lines 2--2
 \OT1/ptm/m/n/10 P a n t h a R h e i  / b l o b  / 9687c 96e b 368d 96201d 4b a a 66b 1b 
  []
@@ -1088,7 +1098,7 @@ Underfull \hbox (badness 4229) in paragraph at lines 2--2
 
 
 
-[14])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1102,11 +1112,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[15
-
-] (./main.aux)
+[15] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1118,18 +1124,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26755 strings out of 473579
- 462667 string characters out of 5732263
- 1383553 words of memory out of 5000000
- 49134 multiletter control sequences out of 15000+600000
+ 26783 strings out of 473579
+ 463929 string characters out of 5732263
+ 1385004 words of memory out of 5000000
+ 49158 multiletter control sequences out of 15000+600000
  601932 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,96p,2512b,2054s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 702359 bytes).
+Output written on main.pdf (15 pages, 713191 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 629 compressed objects within 7 object streams
- 82 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 728 PDF objects out of 1000 (max. 8388607)
+ 672 compressed objects within 7 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 

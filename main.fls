@@ -359,11 +359,6 @@ INPUT ./content/chapter2/fundamental_concepts.tex
 INPUT ./content/chapter2/fundamental_concepts.tex
 INPUT ./content/chapter2/fundamental_concepts.tex
 INPUT content/chapter2/fundamental_concepts.tex
-INPUT ./content/chapter2/fundamentals_ns.tex
-INPUT ./content/chapter2/fundamentals_ns.tex
-INPUT ./content/chapter2/fundamentals_ns.tex
-INPUT ./content/chapter2/fundamentals_ns.tex
-INPUT content/chapter2/fundamentals_ns.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -380,6 +375,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./content/chapter2/fundamentals_ns.tex
+INPUT ./content/chapter2/fundamentals_ns.tex
+INPUT ./content/chapter2/fundamentals_ns.tex
+INPUT ./content/chapter2/fundamentals_ns.tex
+INPUT content/chapter2/fundamentals_ns.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -469,6 +469,11 @@ INPUT ./content/chapter5/requirementSoftware.tex
 INPUT ./content/chapter5/requirementSoftware.tex
 INPUT ./content/chapter5/requirementSoftware.tex
 INPUT content/chapter5/requirementSoftware.tex
+INPUT ./figures/legenda.pdf
+INPUT ./figures/legenda.pdf
+INPUT ./figures/legenda.pdf
+INPUT ./figures/legenda.pdf
+INPUT ./figures/legenda.pdf
 INPUT ./figures/generic_design.pdf
 INPUT ./figures/generic_design.pdf
 INPUT ./figures/generic_design.pdf
