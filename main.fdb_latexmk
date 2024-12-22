@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1732387275.76912 "main.bcf" "main.bbl" "main" 1732388449.63217 0
+["biber main"] 1732387275.76912 "main.bcf" "main.bbl" "main" 1732884435.55566 0
   "bibliography.bib" 1732384976 73530 b163731b497d3ac45f4fda1258335ae2 ""
-  "main.bcf" 1732388449 113824 6d9c1156e188ecab6d3a3958cbb88482 "pdflatex"
+  "main.bcf" 1732884435 113824 6d9c1156e188ecab6d3a3958cbb88482 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1732388443.22606 "c:/Dev/iaria-paper/main.tex" "main.pdf" "main" 1732388449.63384 0
+["pdflatex"] 1732884427.07403 "c:/Dev/iaria-paper/main.tex" "main.pdf" "main" 1732884435.55649 0
   "IEEEtran.cls" 1727544772 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "c:/Dev/iaria-paper/main.tex" 1728199196 1195 78c538742a2553e80d4820e3244f92f3 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1727614118 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -183,7 +183,7 @@
   "content/chapter5/generator.tex" 1732387642 2069 966ac1343bbc5834bf66d0d07f758aaa ""
   "content/chapter5/naming.tex" 1732388254 3435 6d810ecdda47ab367b1fad6870e12e33 ""
   "content/chapter5/requirementComponent.tex" 1732388354 2278 33deebcd344bcc2fe73922d7260103ff ""
-  "content/chapter5/requirementSoftware.tex" 1732386270 5913 dda32de8e389249698532cec52035e2e ""
+  "content/chapter5/requirementSoftware.tex" 1732388913 5913 63e279adcfb227b77756cfb44321570e ""
   "content/chapter6/artifacts.tex" 1728149313 2234 bb566b54a17bb25fc0f2a735e5009150 ""
   "content/chapter6/di.tex" 1732385441 2778 40ab0d88fbc5e3dceeb142139641b9fa ""
   "content/chapter6/executer.tex" 1728200912 1621 679fb60864cc36c46720a48116a2bbfd ""
@@ -193,7 +193,7 @@
   "content/chapter6/plugin.tex" 1732387650 1092 edd2263bebda58880f287ae09f945ed3 ""
   "content/chapter7/conclusion.tex" 1732385441 4614 3c735f935fbf6d6133e6ef37d9215e2f ""
   "content/keywords.tex" 1727544772 126 fe3036d0aa5dc2fcfbeedadd2910d010 ""
-  "content/title.tex" 1732383614 655 9c45664b49964fb6dabf83bd9fb5de35 ""
+  "content/title.tex" 1732884423 619 cae00732d808765861256a1530c084af ""
   "figures/Picture1.png" 1727544772 240408 231bf112decb70d52c8481bb9d5c4cc4 ""
   "figures/Picture2.png" 1727544772 207506 1337bd8bb93ee11ea01ce4adf2fa6955 ""
   "figures/artifactOverview.pdf" 1727544772 17015 5cf58f2d03b849d1d350094416acf0aa ""
@@ -204,10 +204,10 @@
   "figures/generic_design.pdf" 1727544773 43780 fb37b0c03d5dbb5cb05a2e3af27944d7 ""
   "figures/legenda.pdf" 1732385684 13699 40ecd1c32cf47664b149c0ed8c10df80 ""
   "figures/plugin_architecture.pdf" 1727544773 11409 308ad278ab9dab8d5fad8f40918ebca2 ""
-  "main.aux" 1732388449 20966 4c1f57fb718b0a8872d432510520d0d1 "pdflatex"
+  "main.aux" 1732884435 20966 4c1f57fb718b0a8872d432510520d0d1 "pdflatex"
   "main.bbl" 1732387279 43270 f930275e92e35967a5afd22f45f13a3f "biber main"
-  "main.out" 1732388449 4676 7c1c412acf55621aabb4acf7b7afd687 "pdflatex"
-  "main.run.xml" 1732388449 2404 e448bd39f241edac993cdd8a8bf2c7e0 "pdflatex"
+  "main.out" 1732884435 4676 7c1c412acf55621aabb4acf7b7afd687 "pdflatex"
+  "main.run.xml" 1732884435 2404 e448bd39f241edac993cdd8a8bf2c7e0 "pdflatex"
   "main.tex" 1728199196 1195 78c538742a2553e80d4820e3244f92f3 ""
   (generated)
   "main.aux"
